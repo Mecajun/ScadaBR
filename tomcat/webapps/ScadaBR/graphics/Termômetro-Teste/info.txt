@@ -1,0 +1,6 @@
+name=Thermometer
+type=imageSet
+#width=29
+#height=67
+text.x=5
+text.y=115

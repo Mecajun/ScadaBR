@@ -1,0 +1,33 @@
+[2022-10-29 14:42:00] [info]  [ 7112] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-10-29 14:42:00] [info]  [ 7112] Installing service 'ScadaBR' name 'Apache Tomcat 9.0 ScadaBR'.
+[2022-10-29 14:42:00] [info]  [ 7112] Service 'ScadaBR' installed.
+[2022-10-29 14:42:00] [info]  [ 7112] Apache Commons Daemon procrun finished.
+[2022-10-29 14:42:02] [info]  [ 1696] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-10-29 14:42:02] [info]  [ 1696] Updating service...
+[2022-10-29 14:42:02] [info]  [ 1696] Updated service 'ScadaBR'.
+[2022-10-29 14:42:02] [info]  [ 1696] Finished updating service 'ScadaBR'.
+[2022-10-29 14:42:02] [info]  [ 1696] Apache Commons Daemon procrun finished.
+[2022-10-29 14:42:08] [info]  [ 4460] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-10-29 14:42:08] [info]  [ 4460] Running Service 'ScadaBR'...
+[2022-10-29 14:42:08] [info]  [11876] Starting service...
+[2022-10-29 14:42:10] [info]  [11876] Service started in 1835 milliseconds.
+[2022-10-29 17:38:40] [info]  [ 9852] Stopping service...
+[2022-10-29 17:38:44] [info]  [ 9852] Service stop thread completed.
+[2022-10-29 17:38:44] [info]  [ 4460] Run service finished.
+[2022-10-29 17:38:44] [info]  [ 4460] Apache Commons Daemon procrun finished.
+[2022-10-29 17:38:47] [info]  [15676] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-10-29 17:38:47] [info]  [15676] Running Service 'ScadaBR'...
+[2022-10-29 17:38:47] [info]  [14420] Starting service...
+[2022-10-29 17:38:48] [info]  [14420] Service started in 1793 milliseconds.
+[2022-10-29 17:41:06] [info]  [ 9576] Stopping service...
+[2022-10-29 17:41:07] [info]  [ 9576] Service stop thread completed.
+[2022-10-29 17:41:07] [info]  [15676] Run service finished.
+[2022-10-29 17:41:07] [info]  [15676] Apache Commons Daemon procrun finished.
+[2022-10-29 17:43:25] [info]  [11212] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-10-29 17:43:25] [info]  [11212] Running Service 'ScadaBR'...
+[2022-10-29 17:43:25] [info]  [ 3180] Starting service...
+[2022-10-29 17:43:26] [info]  [ 3180] Service started in 1307 milliseconds.
+[2022-11-03 16:30:02] [info]  [10664] Stopping service...
+[2022-11-03 16:30:03] [info]  [10664] Service stop thread completed.
+[2022-11-03 16:30:04] [info]  [11212] Run service finished.
+[2022-11-03 16:30:04] [info]  [11212] Apache Commons Daemon procrun finished.

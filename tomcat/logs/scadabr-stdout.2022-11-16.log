@@ -1,0 +1,7 @@
+
+2022-11-16 15:34:00 Apache Commons Daemon procrun stdout initialized.
+INFO  2022-11-16 15:34:19,800 (com.serotonin.mango.MangoContextListener.contextInitialized:85) - Mango context starting 
+INFO  2022-11-16 15:34:19,832 (com.serotonin.mango.MangoContextListener.contextInitialized:95) - Max threads: 1000 
+INFO  2022-11-16 15:34:25,988 (com.serotonin.mango.MangoContextListener.contextInitialized:140) - Mango context started 
+INFO  2022-11-17 18:16:55,550 (com.serotonin.mango.MangoContextListener.contextDestroyed:145) - Mango context terminating 
+INFO  2022-11-17 18:16:57,726 (com.serotonin.mango.MangoContextListener.contextDestroyed:168) - Mango context terminated 

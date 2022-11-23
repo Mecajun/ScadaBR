@@ -1,0 +1,396 @@
+
+2022-11-03 16:30:07 Apache Commons Daemon procrun stderr initialized.
+03-Nov-2022 16:30:10.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.52
+03-Nov-2022 16:30:10.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 31 2021 04:12:17 UTC
+03-Nov-2022 16:30:10.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.52.0
+03-Nov-2022 16:30:10.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Nov-2022 16:30:10.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Nov-2022 16:30:10.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Nov-2022 16:30:10.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.17
+03-Nov-2022 16:30:10.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+10-LTS-269
+03-Nov-2022 16:30:10.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Nov-2022 16:30:10.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 16:30:10.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 16:30:10.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-Nov-2022 16:30:10.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.servlet.request.encoding=UTF-8
+03-Nov-2022 16:30:10.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 16:30:10.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 16:30:10.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\ScadaBR\tomcat\temp
+03-Nov-2022 16:30:10.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Nov-2022 16:30:10.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\ScadaBR\tomcat\conf\logging.properties
+03-Nov-2022 16:30:10.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Nov-2022 16:30:10.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Nov-2022 16:30:10.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Nov-2022 16:30:10.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Nov-2022 16:30:10.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Nov-2022 16:30:10.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+03-Nov-2022 16:30:10.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+03-Nov-2022 16:30:10.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+03-Nov-2022 16:30:10.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+03-Nov-2022 16:30:10.197 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+03-Nov-2022 16:30:10.197 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-Nov-2022 16:30:10.197 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-Nov-2022 16:30:10.210 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+03-Nov-2022 16:30:10.741 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Nov-2022 16:30:10.800 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1048] milliseconds
+03-Nov-2022 16:30:10.907 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Nov-2022 16:30:10.908 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.52]
+03-Nov-2022 16:30:10.946 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\ScadaBR\tomcat\webapps\ScadaBR.war]
+03-Nov-2022 16:30:23.798 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Nov-2022 16:30:28.519 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [236] milliseconds.
+03-Nov-2022 16:30:29.970 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\ScadaBR\tomcat\webapps\ScadaBR.war] has finished in [19.024] ms
+03-Nov-2022 16:30:29.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\docs]
+03-Nov-2022 16:30:30.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\docs] has finished in [63] ms
+03-Nov-2022 16:30:30.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\examples]
+03-Nov-2022 16:30:31.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\examples] has finished in [1.215] ms
+03-Nov-2022 16:30:31.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\host-manager]
+03-Nov-2022 16:30:31.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\host-manager] has finished in [65] ms
+03-Nov-2022 16:30:31.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\manager]
+03-Nov-2022 16:30:31.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\manager] has finished in [52] ms
+03-Nov-2022 16:30:31.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\ROOT]
+03-Nov-2022 16:30:31.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\ROOT] has finished in [32] ms
+03-Nov-2022 16:30:31.406 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Nov-2022 16:30:31.652 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [20851] milliseconds
+03-Nov-2022 16:57:25.187 INFO [Thread-43] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Nov-2022 16:57:25.372 INFO [Thread-43] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Nov-2022 16:57:25.428 INFO [Thread-43] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [dwr-invoker]
+java.lang.NullPointerException
+	at com.serotonin.web.content.ContentGenerator.generateContent(ContentGenerator.java:48)
+	at com.serotonin.mango.web.dwr.BaseDwr.generateContent(BaseDwr.java:305)
+	at com.serotonin.mango.web.dwr.ViewDwr.preparePointComponentState(ViewDwr.java:314)
+	at com.serotonin.mango.web.dwr.ViewDwr.addPointComponentState(ViewDwr.java:270)
+	at com.serotonin.mango.web.dwr.ViewDwr.getViewPointData(ViewDwr.java:242)
+	at com.serotonin.mango.web.dwr.ViewDwr.getViewPointData(ViewDwr.java:182)
+	at com.serotonin.mango.web.dwr.MiscDwr.doLongPoll(MiscDwr.java:402)
+	at jdk.internal.reflect.GeneratedMethodAccessor133.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.mango.web.dwr.util.LoggedInAjaxMethodFilter.doFilter(LoggedInAjaxMethodFilter.java:52)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.web.dwr.LocalizationFilter.doFilter(LocalizationFilter.java:42)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.mango.web.filter.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:40)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.NullPointerException
+	at com.serotonin.web.content.ContentGenerator.generateContent(ContentGenerator.java:48)
+	at com.serotonin.mango.web.dwr.BaseDwr.generateContent(BaseDwr.java:305)
+	at com.serotonin.mango.web.dwr.ViewDwr.preparePointComponentState(ViewDwr.java:318)
+	at com.serotonin.mango.web.dwr.ViewDwr.addPointComponentState(ViewDwr.java:270)
+	at com.serotonin.mango.web.dwr.ViewDwr.getViewPointData(ViewDwr.java:242)
+	at com.serotonin.mango.web.dwr.ViewDwr.getViewPointData(ViewDwr.java:182)
+	at com.serotonin.mango.web.dwr.MiscDwr.doLongPoll(MiscDwr.java:402)
+	at jdk.internal.reflect.GeneratedMethodAccessor133.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.mango.web.dwr.util.LoggedInAjaxMethodFilter.doFilter(LoggedInAjaxMethodFilter.java:52)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.web.dwr.LocalizationFilter.doFilter(LocalizationFilter.java:42)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.mango.web.filter.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:40)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.NullPointerException
+	at com.serotonin.web.content.ContentGenerator.generateContent(ContentGenerator.java:48)
+	at com.serotonin.mango.web.dwr.BaseDwr.generateContent(BaseDwr.java:305)
+	at com.serotonin.mango.web.dwr.BaseDwr.setMessages(BaseDwr.java:166)
+	at com.serotonin.mango.web.dwr.ViewDwr.preparePointComponentState(ViewDwr.java:319)
+	at com.serotonin.mango.web.dwr.ViewDwr.addPointComponentState(ViewDwr.java:270)
+	at com.serotonin.mango.web.dwr.ViewDwr.getViewPointData(ViewDwr.java:242)
+	at com.serotonin.mango.web.dwr.ViewDwr.getViewPointData(ViewDwr.java:182)
+	at com.serotonin.mango.web.dwr.MiscDwr.doLongPoll(MiscDwr.java:402)
+	at jdk.internal.reflect.GeneratedMethodAccessor133.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.mango.web.dwr.util.LoggedInAjaxMethodFilter.doFilter(LoggedInAjaxMethodFilter.java:52)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.web.dwr.LocalizationFilter.doFilter(LocalizationFilter.java:42)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at com.serotonin.mango.web.filter.ExceptionDetectionFilter.doFilter(ExceptionDetectionFilter.java:40)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+03-Nov-2022 16:57:25.904 WARNING [Thread-43] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ScadaBR] registered the JDBC driver [org.apache.derby.jdbc.AutoloadedDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Nov-2022 16:57:25.905 WARNING [Thread-43] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ScadaBR] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Nov-2022 16:57:25.905 WARNING [Thread-43] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ScadaBR] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Nov-2022 16:57:25.906 WARNING [Thread-43] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ScadaBR] appears to have started a thread named [Dispatcher-Thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.17/java.lang.Object.wait(Native Method)
+ java.base@11.0.17/java.lang.Object.wait(Object.java:328)
+ org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:540)
+ java.base@11.0.17/java.lang.Thread.run(Thread.java:834)
+03-Nov-2022 16:57:25.906 WARNING [Thread-43] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ScadaBR] appears to have started a thread named [Dispatcher-Thread-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.17/java.lang.Object.wait(Native Method)
+ java.base@11.0.17/java.lang.Object.wait(Object.java:328)
+ org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:540)
+ java.base@11.0.17/java.lang.Thread.run(Thread.java:834)
+03-Nov-2022 16:57:25.907 WARNING [Thread-43] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ScadaBR] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.17/java.lang.Object.wait(Native Method)
+ java.base@11.0.17/java.lang.Object.wait(Object.java:328)
+ java.base@11.0.17/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@11.0.17/java.util.TimerThread.run(Timer.java:506)
+03-Nov-2022 16:57:25.921 INFO [Thread-43] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Nov-2022 16:57:25.982 INFO [Thread-43] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+
+2022-11-03 16:57:35 Apache Commons Daemon procrun stderr initialized.
+03-Nov-2022 16:57:35.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.52
+03-Nov-2022 16:57:35.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 31 2021 04:12:17 UTC
+03-Nov-2022 16:57:35.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.52.0
+03-Nov-2022 16:57:35.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Nov-2022 16:57:35.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Nov-2022 16:57:35.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Nov-2022 16:57:35.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.17
+03-Nov-2022 16:57:35.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+10-LTS-269
+03-Nov-2022 16:57:35.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Nov-2022 16:57:35.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 16:57:35.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 16:57:35.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-Nov-2022 16:57:35.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.servlet.request.encoding=UTF-8
+03-Nov-2022 16:57:35.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 16:57:35.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 16:57:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\ScadaBR\tomcat\temp
+03-Nov-2022 16:57:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Nov-2022 16:57:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\ScadaBR\tomcat\conf\logging.properties
+03-Nov-2022 16:57:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Nov-2022 16:57:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Nov-2022 16:57:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Nov-2022 16:57:35.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Nov-2022 16:57:35.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Nov-2022 16:57:35.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+03-Nov-2022 16:57:35.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+03-Nov-2022 16:57:35.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+03-Nov-2022 16:57:35.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+03-Nov-2022 16:57:35.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+03-Nov-2022 16:57:35.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-Nov-2022 16:57:35.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-Nov-2022 16:57:35.881 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+03-Nov-2022 16:57:36.305 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Nov-2022 16:57:36.342 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [817] milliseconds
+03-Nov-2022 16:57:36.432 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Nov-2022 16:57:36.433 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.52]
+03-Nov-2022 16:57:36.459 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\ScadaBR\tomcat\webapps\ScadaBR.war]
+03-Nov-2022 16:57:41.491 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Nov-2022 16:57:45.611 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [227] milliseconds.
+03-Nov-2022 16:57:46.953 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\ScadaBR\tomcat\webapps\ScadaBR.war] has finished in [10.494] ms
+03-Nov-2022 16:57:46.954 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\docs]
+03-Nov-2022 16:57:46.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\docs] has finished in [34] ms
+03-Nov-2022 16:57:46.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\examples]
+03-Nov-2022 16:57:47.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\examples] has finished in [355] ms
+03-Nov-2022 16:57:47.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\host-manager]
+03-Nov-2022 16:57:47.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\host-manager] has finished in [41] ms
+03-Nov-2022 16:57:47.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\manager]
+03-Nov-2022 16:57:47.428 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\manager] has finished in [42] ms
+03-Nov-2022 16:57:47.428 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\ROOT]
+03-Nov-2022 16:57:47.458 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\ROOT] has finished in [30] ms
+03-Nov-2022 16:57:47.464 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Nov-2022 16:57:47.725 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11382] milliseconds
+03-Nov-2022 17:06:50.389 INFO [Thread-31] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Nov-2022 17:06:50.574 INFO [Thread-31] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Nov-2022 17:06:50.790 WARNING [Thread-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ScadaBR] registered the JDBC driver [org.apache.derby.jdbc.AutoloadedDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Nov-2022 17:06:50.791 WARNING [Thread-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ScadaBR] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Nov-2022 17:06:50.791 WARNING [Thread-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ScadaBR] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Nov-2022 17:06:50.792 WARNING [Thread-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ScadaBR] appears to have started a thread named [Dispatcher-Thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.17/java.lang.Object.wait(Native Method)
+ java.base@11.0.17/java.lang.Object.wait(Object.java:328)
+ org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:540)
+ java.base@11.0.17/java.lang.Thread.run(Thread.java:834)
+03-Nov-2022 17:06:50.793 WARNING [Thread-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ScadaBR] appears to have started a thread named [Dispatcher-Thread-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.17/java.lang.Object.wait(Native Method)
+ java.base@11.0.17/java.lang.Object.wait(Object.java:328)
+ org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:540)
+ java.base@11.0.17/java.lang.Thread.run(Thread.java:834)
+03-Nov-2022 17:06:50.793 WARNING [Thread-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ScadaBR] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.17/java.lang.Object.wait(Native Method)
+ java.base@11.0.17/java.lang.Object.wait(Object.java:328)
+ java.base@11.0.17/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@11.0.17/java.util.TimerThread.run(Timer.java:506)
+03-Nov-2022 17:06:50.793 WARNING [Thread-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ScadaBR] appears to have started a thread named [File Reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.17/java.lang.Object.wait(Native Method)
+ java.base@11.0.17/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@11.0.17/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.apache.commons.io.FileCleaner$1.run(FileCleaner.java:62)
+03-Nov-2022 17:06:50.810 INFO [Thread-31] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Nov-2022 17:06:50.874 INFO [Thread-31] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+
+2022-11-03 17:07:00 Apache Commons Daemon procrun stderr initialized.
+03-Nov-2022 17:07:00.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.52
+03-Nov-2022 17:07:00.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 31 2021 04:12:17 UTC
+03-Nov-2022 17:07:00.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.52.0
+03-Nov-2022 17:07:00.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Nov-2022 17:07:00.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Nov-2022 17:07:00.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Nov-2022 17:07:00.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.17
+03-Nov-2022 17:07:00.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+10-LTS-269
+03-Nov-2022 17:07:00.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Nov-2022 17:07:00.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 17:07:00.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 17:07:00.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+03-Nov-2022 17:07:00.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.servlet.request.encoding=UTF-8
+03-Nov-2022 17:07:00.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 17:07:00.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\ScadaBR\tomcat
+03-Nov-2022 17:07:00.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\ScadaBR\tomcat\temp
+03-Nov-2022 17:07:00.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Nov-2022 17:07:00.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\ScadaBR\tomcat\conf\logging.properties
+03-Nov-2022 17:07:00.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Nov-2022 17:07:00.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Nov-2022 17:07:00.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Nov-2022 17:07:00.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Nov-2022 17:07:00.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Nov-2022 17:07:00.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+03-Nov-2022 17:07:00.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+03-Nov-2022 17:07:00.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+03-Nov-2022 17:07:00.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+03-Nov-2022 17:07:00.960 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+03-Nov-2022 17:07:00.960 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-Nov-2022 17:07:00.960 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-Nov-2022 17:07:00.965 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+03-Nov-2022 17:07:01.370 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Nov-2022 17:07:01.404 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [791] milliseconds
+03-Nov-2022 17:07:01.497 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Nov-2022 17:07:01.497 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.52]
+03-Nov-2022 17:07:01.530 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\ScadaBR\tomcat\webapps\ScadaBR.war]
+03-Nov-2022 17:07:07.076 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Nov-2022 17:07:12.237 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [250] milliseconds.
+03-Nov-2022 17:07:14.060 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\ScadaBR\tomcat\webapps\ScadaBR.war] has finished in [12.530] ms
+03-Nov-2022 17:07:14.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\docs]
+03-Nov-2022 17:07:14.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\docs] has finished in [40] ms
+03-Nov-2022 17:07:14.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\examples]
+03-Nov-2022 17:07:14.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\examples] has finished in [368] ms
+03-Nov-2022 17:07:14.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\host-manager]
+03-Nov-2022 17:07:14.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\host-manager] has finished in [42] ms
+03-Nov-2022 17:07:14.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\manager]
+03-Nov-2022 17:07:14.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\manager] has finished in [39] ms
+03-Nov-2022 17:07:14.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\ROOT]
+03-Nov-2022 17:07:14.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\ROOT] has finished in [28] ms
+03-Nov-2022 17:07:14.587 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Nov-2022 17:07:14.831 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13427] milliseconds
+Exception in thread "pool-1-thread-4079" Exception in thread "Serotonin Timer" java.lang.IllegalStateException: Timer already cancelled.
+	at com.serotonin.timer.RealTimeTimer.scheduleImpl(RealTimeTimer.java:76)
+	at com.serotonin.timer.AbstractTimer.schedule(AbstractTimer.java:15)
+	at com.serotonin.mango.rt.dataSource.meta.MetaPointLocatorRT$ScheduledUpdateTimeout.<init>(MetaPointLocatorRT.java:186)
+	at com.serotonin.mango.rt.dataSource.meta.MetaPointLocatorRT$ScheduledUpdateTimeout.run(MetaPointLocatorRT.java:197)
+	at com.serotonin.timer.TimerTask.run(TimerTask.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.util.concurrent.RejectedExecutionException: Task com.serotonin.mango.util.timeout.TimeoutTask@6384bfff rejected from java.util.concurrent.ThreadPoolExecutor@7521b549[Running, pool size = 1000, active threads = 992, queued tasks = 0, completed tasks = 6814]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at com.serotonin.timer.TimerThread.mainLoop(TimerThread.java:90)
+	at com.serotonin.timer.TimerThread.run(TimerThread.java:29)
+04-Nov-2022 17:41:42.477 INFO [Thread-207] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Nov-2022 17:41:42.736 INFO [Thread-207] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Nov-2022 17:41:43.103 WARNING [Thread-207] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ScadaBR] registered the JDBC driver [org.apache.derby.jdbc.AutoloadedDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Nov-2022 17:41:43.104 WARNING [Thread-207] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ScadaBR] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Nov-2022 17:41:43.104 WARNING [Thread-207] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ScadaBR] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Nov-2022 17:41:43.104 WARNING [Thread-207] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ScadaBR] appears to have started a thread named [Dispatcher-Thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.17/java.lang.Object.wait(Native Method)
+ java.base@11.0.17/java.lang.Object.wait(Object.java:328)
+ org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:540)
+ java.base@11.0.17/java.lang.Thread.run(Thread.java:834)
+04-Nov-2022 17:41:43.105 WARNING [Thread-207] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ScadaBR] appears to have started a thread named [Dispatcher-Thread-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.17/java.lang.Object.wait(Native Method)
+ java.base@11.0.17/java.lang.Object.wait(Object.java:328)
+ org.apache.log4j.AsyncAppender$Dispatcher.run(AsyncAppender.java:540)
+ java.base@11.0.17/java.lang.Thread.run(Thread.java:834)
+04-Nov-2022 17:41:43.105 WARNING [Thread-207] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ScadaBR] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.17/java.lang.Object.wait(Native Method)
+ java.base@11.0.17/java.lang.Object.wait(Object.java:328)
+ java.base@11.0.17/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@11.0.17/java.util.TimerThread.run(Timer.java:506)
+04-Nov-2022 17:41:43.106 WARNING [Thread-207] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ScadaBR] appears to have started a thread named [File Reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.17/java.lang.Object.wait(Native Method)
+ java.base@11.0.17/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ java.base@11.0.17/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+ org.apache.commons.io.FileCleaner$1.run(FileCleaner.java:62)
+04-Nov-2022 17:41:43.124 INFO [Thread-207] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Nov-2022 17:41:43.139 INFO [Thread-207] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

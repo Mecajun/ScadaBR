@@ -1,0 +1,5 @@
+INFO  2022-11-09 14:06:32,852 (com.serotonin.mango.MangoContextListener.contextDestroyed:145) - Mango context terminating 
+INFO  2022-11-09 14:06:34,841 (com.serotonin.mango.MangoContextListener.contextDestroyed:168) - Mango context terminated 
+INFO  2022-11-09 14:06:54,275 (com.serotonin.mango.MangoContextListener.contextInitialized:85) - Mango context starting 
+INFO  2022-11-09 14:06:54,307 (com.serotonin.mango.MangoContextListener.contextInitialized:95) - Max threads: 1000 
+INFO  2022-11-09 14:06:58,385 (com.serotonin.mango.MangoContextListener.contextInitialized:140) - Mango context started 

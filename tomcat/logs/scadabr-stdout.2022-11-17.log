@@ -1,0 +1,1375 @@
+
+2022-11-17 18:31:57 Apache Commons Daemon procrun stdout initialized.
+INFO  2022-11-17 18:32:14,146 (com.serotonin.mango.MangoContextListener.contextInitialized:85) - Mango context starting 
+INFO  2022-11-17 18:32:14,178 (com.serotonin.mango.MangoContextListener.contextInitialized:95) - Max threads: 1000 
+INFO  2022-11-17 18:32:20,638 (com.serotonin.mango.MangoContextListener.contextInitialized:140) - Mango context started 
+WARN  2022-11-17 20:39:34,567 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:39:35,311 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:12,037 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:12,590 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:12,940 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:13,247 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:13,261 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:13,511 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:13,525 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:13,742 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:31,272 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:52,545 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+ERROR 2022-11-17 20:40:52,647 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:535)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:463)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.WebContextFilter.doFilter(WebContextFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.LoggedInFilter.doFilter(LoggedInFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at com.serotonin.mango.web.mvc.controller.ViewEditController.onSubmit(ViewEditController.java:191)
+	at org.springframework.web.servlet.mvc.SimpleFormController.processFormSubmission(SimpleFormController.java:267)
+	at org.springframework.web.servlet.mvc.AbstractFormController.handleRequestInternal(AbstractFormController.java:265)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	... 34 more
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/error.jsp
+
+REQUEST PARAMETERS
+   viewId=7
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   content-length=514
+   cache-control=max-age=0
+   sec-ch-ua="Chromium";v="106", "Not.A/Brand";v="24", "Opera GX";v="92"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   origin=http://localhost:8080
+   content-type=multipart/form-data; boundary=----WebKitFormBoundary9xYQRFANKpMLF9XJ
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; fullScreen=no; JSESSIONID=AC812B963483394ACBB5C62E43C43131; SLG_GWPT_Show_Hide_tmp=undefined; SLG_wptGlobTipTmp=undefined; SLG_G_WPT_TO=pt
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/view_edit.shtm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/view_edit.shtm
+   javax.servlet.forward.query_string=viewId=7
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@3deca8a3
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@2564b7f2: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Thu Nov 17 18:32:21 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@6fbfd6ed
+   availableLanguages=[com.serotonin.db.KeyValuePair@219a11b6, com.serotonin.db.KeyValuePair@16eed375, com.serotonin.db.KeyValuePair@4971e566, com.serotonin.db.KeyValuePair@1180e55b, com.serotonin.db.KeyValuePair@6066417c, com.serotonin.db.KeyValuePair@73437e, com.serotonin.db.KeyValuePair@466fccc3, com.serotonin.db.KeyValuePair@50535368, com.serotonin.db.KeyValuePair@26c85bf, com.serotonin.db.KeyValuePair@189e4e3f]
+   sessionUser=com.serotonin.mango.vo.User@20
+   javax.servlet.error.message=
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@2564b7f2: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Thu Nov 17 18:32:21 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@6fbfd6ed
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@20af903b
+   NEW_ID=-1
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/view_edit.shtm
+   lang=pt
+   javax.servlet.error.request_uri=/ScadaBR/view_edit.shtm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@6a2d4f55
+   javax.servlet.error.exception=org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1668728444980
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@c8a7ed2, com.serotonin.mango.web.dwr.longPoll.LongPollData@668f36ca, com.serotonin.mango.web.dwr.longPoll.LongPollData@3afd5c68, com.serotonin.mango.web.dwr.longPoll.LongPollData@3aaaeb85, com.serotonin.mango.web.dwr.longPoll.LongPollData@65097eec, com.serotonin.mango.web.dwr.longPoll.LongPollData@7a2f3de1, com.serotonin.mango.web.dwr.longPoll.LongPollData@2ae120d0, com.serotonin.mango.web.dwr.longPoll.LongPollData@477a10ca, com.serotonin.mango.web.dwr.longPoll.LongPollData@692af8d7, com.serotonin.mango.web.dwr.longPoll.LongPollData@6a691026, com.serotonin.mango.web.dwr.longPoll.LongPollData@49ad5a1b, com.serotonin.mango.web.dwr.longPoll.LongPollData@5ec6efa4, com.serotonin.mango.web.dwr.longPoll.LongPollData@609458eb]
+
+
+CONTEXT ATTRIBUTES
+   RUNTIME_MANAGER=com.serotonin.mango.rt.RuntimeManager@425e9cff
+   constants.EventType.EventSources.SYSTEM=4
+   org.apache.catalina.resources=org.apache.catalina.webresources.StandardRoot@61006b2d
+   constants.PublisherVO.Types.HTTP_SENDER=1
+   USER_CACHE=br.org.scadabr.vo.userCache.UserCache@8521366
+   DwrContainer=org.directwebremoting.impl.DefaultContainer@4ac35187
+   constants.DataSourceVO.Types.OPC=32
+   constants.SystemEventType.TYPE_POINT_LINK_FAILURE=9
+   constants.EventType.EventSources.PUBLISHER=7
+   constants.SystemEventType.TYPE_USER_LOGIN=4
+   constants.DataSourceVO.Types.JMX=26
+   constants.EventType.EventSources.DATA_POINT=1
+   DYNAMIC_IMAGES=[com.serotonin.mango.view.DynamicImage@73437344, com.serotonin.mango.view.DynamicImage@4969fa39, com.serotonin.mango.view.DynamicImage@e99a7f9, com.serotonin.mango.view.DynamicImage@240ffb64]
+   constants.UserComment.TYPE_EVENT=1
+   AxisEngine=org.apache.axis.server.AxisServer@7ccc8544
+   constants.DataSourceVO.Types.ONE_WIRE=8
+   org.apache.catalina.webappVersion=
+   javax.servlet.http.HttpServlet=org.directwebremoting.servlet.DwrServlet@1ef7c0f3
+   constants.DataSourceVO.Types.PACHUBE=23
+   constants.DataTypes.ALPHANUMERIC=4
+   constants.Permissions.DataPointAccessTypes.SET=2
+   constants.DataSourceVO.Types.SNMP=5
+   constants.EventType.EventSources.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_SOURCE=1
+   constants.SystemEventType.TYPE_EMAIL_SEND_FAILURE=8
+   constants.Permissions.DataPointAccessTypes.NONE=0
+   constants.DataSourceVO.Types.NODAVE_S7=37
+   HTTP_RECEIVER_MULTICASTER=com.serotonin.mango.rt.dataSource.http.HttpReceiverMulticaster@6263968
+   constants.DataSourceVO.Types.ALPHA_2=39
+   constants.DataSourceVO.Types.HTTP_RETRIEVER=11
+   constants.DataSourceVO.Types.PERSISTENT=24
+   constants.PublisherVO.Types.PERSISTENT=3
+   constants.DataSourceVO.Types.NMEA=13
+   constants.DataSourceVO.Types.HTTP_IMAGE=15
+   EVENT_MANAGER=com.serotonin.mango.rt.EventManager@56390f42
+   org.springframework.web.context.WebApplicationContext.ROOT=org.springframework.web.context.support.XmlWebApplicationContext@6fbfd6ed: display name [Root WebApplicationContext]; startup date [Thu Nov 17 18:32:13 BRT 2022]; root of context hierarchy
+   constants.AuditEventType.TYPE_POINT_EVENT_DETECTOR=3
+   constants.SystemEventType.TYPE_COMPOUND_DETECTOR_FAILURE=6
+   org.directwebremoting.WebContextFactory$WebContextBuilder=org.directwebremoting.impl.DefaultWebContextBuilder@4e475664
+   constants.DataTypes.MULTISTATE=2
+   constants.AuditEventType.TYPE_POINT_LINK=7
+   org.apache.catalina.jsp_classpath=/C:/Program Files/ScadaBR/tomcat/lib/;/C:/Program Files/ScadaBR/tomcat/lib/annotations-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ant.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ha.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ssi.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-storeconfig.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-tribes.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina.jar;/C:/Program Files/ScadaBR/tomcat/lib/ecj-4.20.jar;/C:/Program Files/ScadaBR/tomcat/lib/el-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper-el.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper.jar;/C:/Program Files/ScadaBR/tomcat/lib/jaspic-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jsp-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/servlet-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-coyote.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-dbcp.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-cs.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-de.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-es.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-fr.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ja.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ko.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-pt-BR.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ru.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-zh-CN.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jdbc.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jni.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util-scan.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-websocket.jar;/C:/Program Files/ScadaBR/tomcat/lib/websocket-api.jar;C:\Program Files\ScadaBR\tomcat\bin\bootstrap.jar;C:\Program Files\ScadaBR\tomcat\bin\tomcat-juli.jar
+   constants.UserComment.TYPE_POINT=2
+   constants.EventType.EventSources.MAINTENANCE=9
+   constants.DataTypes.IMAGE=5
+   constants.DataSourceVO.Types.ASCII_FILE=33
+   org.springframework.web.servlet.FrameworkServlet.CONTEXT.springDispatcher=org.springframework.web.context.support.XmlWebApplicationContext@2564b7f2: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Thu Nov 17 18:32:21 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@6fbfd6ed
+   constants.DataSourceVO.Types.GALIL=14
+   constants.Permissions.DataPointAccessTypes.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_POINT=2
+   constants.DataTypes.NUMERIC=3
+   constants.AuditEventType.TYPE_COMPOUND_EVENT_DETECTOR=4
+   IMAGE_SETS=[com.serotonin.mango.view.ImageSet@6b05b431, com.serotonin.mango.view.ImageSet@10364b15, com.serotonin.mango.view.ImageSet@26d49fb, com.serotonin.mango.view.ImageSet@5cd24f39, com.serotonin.mango.view.ImageSet@1a045dbd, com.serotonin.mango.view.ImageSet@4c8e3fa9, com.serotonin.mango.view.ImageSet@222f4c3d, com.serotonin.mango.view.ImageSet@5ed233ab, com.serotonin.mango.view.ImageSet@38a1b903, com.serotonin.mango.view.ImageSet@3980c48f, com.serotonin.mango.view.ImageSet@2a5c6447, com.serotonin.mango.view.ImageSet@34455885, com.serotonin.mango.view.ImageSet@7b54968a, com.serotonin.mango.view.ImageSet@7d569cf4, com.serotonin.mango.view.ImageSet@b400122, com.serotonin.mango.view.ImageSet@389e7b9d, com.serotonin.mango.view.ImageSet@215f22b1, com.serotonin.mango.view.ImageSet@57baf6ee, com.serotonin.mango.view.ImageSet@5660fd73, com.serotonin.mango.view.ImageSet@16834a16, com.serotonin.mango.view.ImageSet@443b13fd, com.serotonin.mango.view.ImageSet@16d64594, com.serotonin.mango.view.ImageSet@57a59362, com.serotonin.mango.view.ImageSet@4660b40c, com.serotonin.mango.view.ImageSet@4ec8f3aa, com.serotonin.mango.view.ImageSet@2f5c17a5, com.serotonin.mango.view.ImageSet@4197c334, com.serotonin.mango.view.ImageSet@1f1b7d29, com.serotonin.mango.view.ImageSet@2bebec3c, com.serotonin.mango.view.ImageSet@23a9a904, com.serotonin.mango.view.ImageSet@d4d4a51, com.serotonin.mango.view.ImageSet@296d1fb6, com.serotonin.mango.view.ImageSet@2ec5e313, com.serotonin.mango.view.ImageSet@28f5363e, com.serotonin.mango.view.ImageSet@13d38524, com.serotonin.mango.view.ImageSet@5351e760, com.serotonin.mango.view.ImageSet@723531cd, com.serotonin.mango.view.ImageSet@52f6ff0a, com.serotonin.mango.view.ImageSet@252e0d32, com.serotonin.mango.view.ImageSet@7dcf228f, com.serotonin.mango.view.ImageSet@23788398, com.serotonin.mango.view.ImageSet@113370f6, com.serotonin.mango.view.ImageSet@41cc44cc, com.serotonin.mango.view.ImageSet@13468501, com.serotonin.mango.view.ImageSet@2864a546, com.serotonin.mango.view.ImageSet@65dcfffd, com.serotonin.mango.view.ImageSet@2cfe71e2, com.serotonin.mango.view.ImageSet@bfc4aa4, com.serotonin.mango.view.ImageSet@1732ea69, com.serotonin.mango.view.ImageSet@4eb2b468, com.serotonin.mango.view.ImageSet@5de96701, com.serotonin.mango.view.ImageSet@a6de7a6, com.serotonin.mango.view.ImageSet@51a7d721, com.serotonin.mango.view.ImageSet@673b50c0, com.serotonin.mango.view.ImageSet@527aefb2, com.serotonin.mango.view.ImageSet@3441cdea, com.serotonin.mango.view.ImageSet@60704135, com.serotonin.mango.view.ImageSet@5a85afdb, com.serotonin.mango.view.ImageSet@1efa11f5, com.serotonin.mango.view.ImageSet@1fb5246, com.serotonin.mango.view.ImageSet@1d9fe07, com.serotonin.mango.view.ImageSet@63e55bf8, com.serotonin.mango.view.ImageSet@7ccc508b, com.serotonin.mango.view.ImageSet@ff85813, com.serotonin.mango.view.ImageSet@37a051bb]
+   constants.Common.NEW_ID=-1
+   constants.DataSourceVO.Types.VMSTAT=17
+   constants.AuditEventType.TYPE_EVENT_HANDLER=6
+   DATAPOINTS_NAME_ID_MAPPING={Out_Umi_6=23, Out_Umi_5=22, Out_Umi_4=3, Out_Umi_3=2, Out_Umi_2=1, Out_Umi_1=21, Out_Umi_7=24, Auto_Manual_6=52, Auto_Manual_5=51, Auto_Manual_7=53, Auto_Manual_2=48, Auto_Manual_1=47, Auto_Manual_4=50, Auto_Manual_3=49, Ret_Cont_1=32, Ret_Cont_2=33, Ret_Cont_5=36, Ret_Cont_6=37, Ret_Cont_3=34, Ret_Cont_4=35, Ret_Cont_7=38, umi_champ_3=19, umi_champ_2=18, umi_champ_1=17, tem_forn_8=11, tem_forn_7=10, tem_forn_6=9, tem_forn_5=8, tem_forn_4=7, umi_shi_5=16, tem_forn_3=6, tem_forn_2=5, umi_shi_3=14, tem_forn_1=20, umi_shi_4=15, umi_shi_1=12, umi_shi_2=13, Out_Temp_1=25, Out_Temp_4=28, Out_Temp_5=29, Out_Temp_2=26, Out_Temp_3=27, Out_Temp_6=30, Out_Temp_7=31, Out_Term_1=39, Out_Term_6=44, Out_Term_7=45, Out_Term_8=46, Out_Term_2=40, Out_Term_3=41, Out_Term_4=42, Out_Term_5=43}
+   constants.DataSourceVO.Types.RADIUINO=41
+   constants.DataSourceVO.Types.BACNET=10
+   constants.PublisherVO.Types.PACHUBE=2
+   constants.Permissions.DataPointAccessTypes.READ=1
+   org.directwebremoting.ContainerList=[org.directwebremoting.impl.DefaultContainer@4ac35187]
+   constants.EventType.EventSources.SCHEDULED=6
+   constants.DataTypes.BINARY=1
+   constants.SystemEventType.TYPE_SYSTEM_STARTUP=1
+   javax.servlet.ServletConfig=org.apache.catalina.core.StandardWrapperFacade@6e97f707
+   clientSideMessages={common.alarmLevel.lifeSafety=com.serotonin.web.i18n.LocalizableMessage@1c71626, common.disabled=com.serotonin.web.i18n.LocalizableMessage@be9bfeff, header.mute=com.serotonin.web.i18n.LocalizableMessage@43df3cba, header.unmute=com.serotonin.web.i18n.LocalizableMessage@d635aa93, common.alarmLevel.critical=com.serotonin.web.i18n.LocalizableMessage@2b076d7, js.help.loading=com.serotonin.web.i18n.LocalizableMessage@10dfaff4, js.help.related=com.serotonin.web.i18n.LocalizableMessage@3dce6ae3, js.disabledCed=com.serotonin.web.i18n.LocalizableMessage@5d4e0ee1, js.help.lastUpdated=com.serotonin.web.i18n.LocalizableMessage@729293fd, js.email.addAddress=com.serotonin.web.i18n.LocalizableMessage@cbb9a38a, js.disabledSe=com.serotonin.web.i18n.LocalizableMessage@97a7b393, scheduledEvents.se=com.serotonin.web.i18n.LocalizableMessage@b5cc6cfa, js.help.error=com.serotonin.web.i18n.LocalizableMessage@f876c0, js.email.addUser=com.serotonin.web.i18n.LocalizableMessage@49cc77b5, js.email.addMailingList=com.serotonin.web.i18n.LocalizableMessage@6fa4a69f, js.email.noRecipForEmail=com.serotonin.web.i18n.LocalizableMessage@4b694592, common.access.set=com.serotonin.web.i18n.LocalizableMessage@a3e5309b, common.access.read=com.serotonin.web.i18n.LocalizableMessage@d8bff83d, common.sendTestEmail=com.serotonin.web.i18n.LocalizableMessage@8fd89c9f, pointLinks.pointLink=com.serotonin.web.i18n.LocalizableMessage@2c6dd5e5, js.disabledPointLink=com.serotonin.web.i18n.LocalizableMessage@25407509, compoundDetectors.compoundEventDetector=com.serotonin.web.i18n.LocalizableMessage@51020f89, common.disabledToggle=com.serotonin.web.i18n.LocalizableMessage@d7f89333, common.alarmLevel.none=com.serotonin.web.i18n.LocalizableMessage@223c1a70, common.administrator=com.serotonin.web.i18n.LocalizableMessage@a467f3ea, common.enabledToggle=com.serotonin.web.i18n.LocalizableMessage@ea5c2f12, common.alarmLevel.urgent=com.serotonin.web.i18n.LocalizableMessage@8fa9c879, common.minimize=com.serotonin.web.i18n.LocalizableMessage@5d740b21, js.email.noRecipients=com.serotonin.web.i18n.LocalizableMessage@d78563d2, common.user=com.serotonin.web.i18n.LocalizableMessage@8a9479ce, events.silence=com.serotonin.web.i18n.LocalizableMessage@8376c0ac, js.email.testSent=com.serotonin.web.i18n.LocalizableMessage@f59d9881, common.maximize=com.serotonin.web.i18n.LocalizableMessage@c752a74f, events.unsilence=com.serotonin.web.i18n.LocalizableMessage@29ad6533, common.alarmLevel.info=com.serotonin.web.i18n.LocalizableMessage@2239cfe6}
+   constants.DataSourceVO.Types.EBI25=16
+   constants.SystemEventType.TYPE_SET_POINT_HANDLER_FAILURE=7
+   constants.EventType.EventSources.AUDIT=8
+   constants.DataSourceVO.Types.OPEN_V_4_J=19
+   constants.Permissions.DataPointAccessTypes.ADMIN=4
+   constants.DataSourceVO.Types.DR_STORAGE_HT5B=38
+   javax.websocket.server.ServerContainer=org.apache.tomcat.websocket.server.WsServerContainer@59cd6ec4
+   org.directwebremoting.impl.ServerContext=org.directwebremoting.impl.DefaultServerContext@479029a0
+   AdminServletAxisEngine=org.apache.axis.server.AxisServer@7ccc8544
+   constants.DataSourceVO.Types.MODBUS_SERIAL=2
+   constants.DataSourceVO.Types.POP3=12
+   org.apache.tomcat.JarScanner=org.apache.tomcat.util.scan.StandardJarScanner@3310b340
+   constants.DataSourceVO.Types.VICONICS=18
+   FREEMARKER_CONFIG=freemarker.template.Configuration@62ee45ea
+   constants.DataSourceVO.Types.SQL=6
+   constants.DataSourceVO.Types.MODBUS_IP=3
+   constants.AuditEventType.TYPE_SCHEDULED_EVENT=5
+   constants.SystemEventType.TYPE_SYSTEM_SHUTDOWN=2
+   constants.DataSourceVO.Types.ASCII_SERIAL=34
+   constants.DataSourceVO.Types.HTTP_RECEIVER=7
+   constants.DataSourceVO.Types.DNP3_IP=21
+   BACKGROUND_PROCESSING=com.serotonin.mango.rt.maint.BackgroundProcessing@50e7bc3d
+   constants.EventType.EventSources.COMPOUND=5
+   constants.DataSourceVO.Types.VIRTUAL=1
+   org.apache.jasper.runtime.JspApplicationContextImpl=org.apache.jasper.runtime.JspApplicationContextImpl@167c52a8
+   javax.servlet.context.tempdir=C:\Program Files\ScadaBR\tomcat\work\Catalina\localhost\ScadaBR
+   constants.DataSourceVO.Types.META=9
+   constants.DataSourceVO.Types.INTERNAL=27
+   org.apache.tomcat.InstanceManager=org.apache.catalina.core.DefaultInstanceManager@20c07994
+   constants.DataSourceVO.Types.DNP3_SERIAL=22
+   org.directwebremoting.Container=org.directwebremoting.impl.DefaultContainer@4ac35187
+   org.apache.jasper.compiler.TldCache=org.apache.jasper.compiler.TldCache@3011b973
+   DATABASE_ACCESS=com.serotonin.mango.db.DerbyAccess@5dfafd18
+   constants.DataSourceVO.Types.IEC101_ETHERNET=36
+   constants.SystemEventType.TYPE_PROCESS_FAILURE=10
+   constants.SystemEventType.TYPE_MAX_ALARM_LEVEL_CHANGED=3
+   constants.DataSourceVO.Types.M_BUS=20
+   constants.DataSourceVO.Types.IEC101_SERIAL=35
+ 
+ERROR 2022-11-17 20:40:55,973 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:535)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:463)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.WebContextFilter.doFilter(WebContextFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.LoggedInFilter.doFilter(LoggedInFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at com.serotonin.mango.web.mvc.controller.ViewEditController.onSubmit(ViewEditController.java:191)
+	at org.springframework.web.servlet.mvc.SimpleFormController.processFormSubmission(SimpleFormController.java:267)
+	at org.springframework.web.servlet.mvc.AbstractFormController.handleRequestInternal(AbstractFormController.java:265)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	... 34 more
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/error.jsp
+
+REQUEST PARAMETERS
+   viewId=7
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   content-length=514
+   cache-control=max-age=0
+   sec-ch-ua="Chromium";v="106", "Not.A/Brand";v="24", "Opera GX";v="92"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0 (Edition std-1)
+   origin=http://localhost:8080
+   content-type=multipart/form-data; boundary=----WebKitFormBoundary9xYQRFANKpMLF9XJ
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; fullScreen=no; JSESSIONID=AC812B963483394ACBB5C62E43C43131; SLG_GWPT_Show_Hide_tmp=undefined; SLG_wptGlobTipTmp=undefined; SLG_G_WPT_TO=pt
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/view_edit.shtm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/view_edit.shtm
+   javax.servlet.forward.query_string=viewId=7
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@1fffbb7e
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@2564b7f2: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Thu Nov 17 18:32:21 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@6fbfd6ed
+   availableLanguages=[com.serotonin.db.KeyValuePair@63c159f6, com.serotonin.db.KeyValuePair@6edf1d6b, com.serotonin.db.KeyValuePair@61b2c84e, com.serotonin.db.KeyValuePair@374ab4d, com.serotonin.db.KeyValuePair@6a935c3c, com.serotonin.db.KeyValuePair@7cb12040, com.serotonin.db.KeyValuePair@bb66720, com.serotonin.db.KeyValuePair@2dbe9bd8, com.serotonin.db.KeyValuePair@5d3c40ef, com.serotonin.db.KeyValuePair@287ad828]
+   sessionUser=com.serotonin.mango.vo.User@20
+   javax.servlet.error.message=
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@2564b7f2: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Thu Nov 17 18:32:21 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@6fbfd6ed
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@20af903b
+   NEW_ID=-1
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/view_edit.shtm
+   lang=pt
+   javax.servlet.error.request_uri=/ScadaBR/view_edit.shtm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@6a2d4f55
+   javax.servlet.error.exception=org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1668728444980
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@c8a7ed2, com.serotonin.mango.web.dwr.longPoll.LongPollData@668f36ca, com.serotonin.mango.web.dwr.longPoll.LongPollData@3afd5c68, com.serotonin.mango.web.dwr.longPoll.LongPollData@3aaaeb85, com.serotonin.mango.web.dwr.longPoll.LongPollData@65097eec, com.serotonin.mango.web.dwr.longPoll.LongPollData@7a2f3de1, com.serotonin.mango.web.dwr.longPoll.LongPollData@2ae120d0, com.serotonin.mango.web.dwr.longPoll.LongPollData@477a10ca, com.serotonin.mango.web.dwr.longPoll.LongPollData@692af8d7, com.serotonin.mango.web.dwr.longPoll.LongPollData@6a691026, com.serotonin.mango.web.dwr.longPoll.LongPollData@49ad5a1b, com.serotonin.mango.web.dwr.longPoll.LongPollData@5ec6efa4, com.serotonin.mango.web.dwr.longPoll.LongPollData@609458eb]
+
+
+CONTEXT ATTRIBUTES
+   RUNTIME_MANAGER=com.serotonin.mango.rt.RuntimeManager@425e9cff
+   constants.EventType.EventSources.SYSTEM=4
+   org.apache.catalina.resources=org.apache.catalina.webresources.StandardRoot@61006b2d
+   constants.PublisherVO.Types.HTTP_SENDER=1
+   USER_CACHE=br.org.scadabr.vo.userCache.UserCache@8521366
+   DwrContainer=org.directwebremoting.impl.DefaultContainer@4ac35187
+   constants.DataSourceVO.Types.OPC=32
+   constants.SystemEventType.TYPE_POINT_LINK_FAILURE=9
+   constants.EventType.EventSources.PUBLISHER=7
+   constants.SystemEventType.TYPE_USER_LOGIN=4
+   constants.DataSourceVO.Types.JMX=26
+   constants.EventType.EventSources.DATA_POINT=1
+   DYNAMIC_IMAGES=[com.serotonin.mango.view.DynamicImage@73437344, com.serotonin.mango.view.DynamicImage@4969fa39, com.serotonin.mango.view.DynamicImage@e99a7f9, com.serotonin.mango.view.DynamicImage@240ffb64]
+   constants.UserComment.TYPE_EVENT=1
+   AxisEngine=org.apache.axis.server.AxisServer@7ccc8544
+   constants.DataSourceVO.Types.ONE_WIRE=8
+   org.apache.catalina.webappVersion=
+   javax.servlet.http.HttpServlet=org.directwebremoting.servlet.DwrServlet@1ef7c0f3
+   constants.DataSourceVO.Types.PACHUBE=23
+   constants.DataTypes.ALPHANUMERIC=4
+   constants.Permissions.DataPointAccessTypes.SET=2
+   constants.DataSourceVO.Types.SNMP=5
+   constants.EventType.EventSources.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_SOURCE=1
+   constants.SystemEventType.TYPE_EMAIL_SEND_FAILURE=8
+   constants.Permissions.DataPointAccessTypes.NONE=0
+   constants.DataSourceVO.Types.NODAVE_S7=37
+   HTTP_RECEIVER_MULTICASTER=com.serotonin.mango.rt.dataSource.http.HttpReceiverMulticaster@6263968
+   constants.DataSourceVO.Types.ALPHA_2=39
+   constants.DataSourceVO.Types.HTTP_RETRIEVER=11
+   constants.DataSourceVO.Types.PERSISTENT=24
+   constants.PublisherVO.Types.PERSISTENT=3
+   constants.DataSourceVO.Types.NMEA=13
+   constants.DataSourceVO.Types.HTTP_IMAGE=15
+   EVENT_MANAGER=com.serotonin.mango.rt.EventManager@56390f42
+   org.springframework.web.context.WebApplicationContext.ROOT=org.springframework.web.context.support.XmlWebApplicationContext@6fbfd6ed: display name [Root WebApplicationContext]; startup date [Thu Nov 17 18:32:13 BRT 2022]; root of context hierarchy
+   constants.AuditEventType.TYPE_POINT_EVENT_DETECTOR=3
+   constants.SystemEventType.TYPE_COMPOUND_DETECTOR_FAILURE=6
+   org.directwebremoting.WebContextFactory$WebContextBuilder=org.directwebremoting.impl.DefaultWebContextBuilder@4e475664
+   constants.DataTypes.MULTISTATE=2
+   constants.AuditEventType.TYPE_POINT_LINK=7
+   org.apache.catalina.jsp_classpath=/C:/Program Files/ScadaBR/tomcat/lib/;/C:/Program Files/ScadaBR/tomcat/lib/annotations-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ant.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ha.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ssi.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-storeconfig.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-tribes.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina.jar;/C:/Program Files/ScadaBR/tomcat/lib/ecj-4.20.jar;/C:/Program Files/ScadaBR/tomcat/lib/el-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper-el.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper.jar;/C:/Program Files/ScadaBR/tomcat/lib/jaspic-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jsp-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/servlet-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-coyote.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-dbcp.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-cs.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-de.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-es.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-fr.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ja.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ko.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-pt-BR.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ru.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-zh-CN.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jdbc.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jni.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util-scan.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-websocket.jar;/C:/Program Files/ScadaBR/tomcat/lib/websocket-api.jar;C:\Program Files\ScadaBR\tomcat\bin\bootstrap.jar;C:\Program Files\ScadaBR\tomcat\bin\tomcat-juli.jar
+   constants.UserComment.TYPE_POINT=2
+   constants.EventType.EventSources.MAINTENANCE=9
+   constants.DataTypes.IMAGE=5
+   constants.DataSourceVO.Types.ASCII_FILE=33
+   org.springframework.web.servlet.FrameworkServlet.CONTEXT.springDispatcher=org.springframework.web.context.support.XmlWebApplicationContext@2564b7f2: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Thu Nov 17 18:32:21 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@6fbfd6ed
+   constants.DataSourceVO.Types.GALIL=14
+   constants.Permissions.DataPointAccessTypes.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_POINT=2
+   constants.DataTypes.NUMERIC=3
+   constants.AuditEventType.TYPE_COMPOUND_EVENT_DETECTOR=4
+   IMAGE_SETS=[com.serotonin.mango.view.ImageSet@6b05b431, com.serotonin.mango.view.ImageSet@10364b15, com.serotonin.mango.view.ImageSet@26d49fb, com.serotonin.mango.view.ImageSet@5cd24f39, com.serotonin.mango.view.ImageSet@1a045dbd, com.serotonin.mango.view.ImageSet@4c8e3fa9, com.serotonin.mango.view.ImageSet@222f4c3d, com.serotonin.mango.view.ImageSet@5ed233ab, com.serotonin.mango.view.ImageSet@38a1b903, com.serotonin.mango.view.ImageSet@3980c48f, com.serotonin.mango.view.ImageSet@2a5c6447, com.serotonin.mango.view.ImageSet@34455885, com.serotonin.mango.view.ImageSet@7b54968a, com.serotonin.mango.view.ImageSet@7d569cf4, com.serotonin.mango.view.ImageSet@b400122, com.serotonin.mango.view.ImageSet@389e7b9d, com.serotonin.mango.view.ImageSet@215f22b1, com.serotonin.mango.view.ImageSet@57baf6ee, com.serotonin.mango.view.ImageSet@5660fd73, com.serotonin.mango.view.ImageSet@16834a16, com.serotonin.mango.view.ImageSet@443b13fd, com.serotonin.mango.view.ImageSet@16d64594, com.serotonin.mango.view.ImageSet@57a59362, com.serotonin.mango.view.ImageSet@4660b40c, com.serotonin.mango.view.ImageSet@4ec8f3aa, com.serotonin.mango.view.ImageSet@2f5c17a5, com.serotonin.mango.view.ImageSet@4197c334, com.serotonin.mango.view.ImageSet@1f1b7d29, com.serotonin.mango.view.ImageSet@2bebec3c, com.serotonin.mango.view.ImageSet@23a9a904, com.serotonin.mango.view.ImageSet@d4d4a51, com.serotonin.mango.view.ImageSet@296d1fb6, com.serotonin.mango.view.ImageSet@2ec5e313, com.serotonin.mango.view.ImageSet@28f5363e, com.serotonin.mango.view.ImageSet@13d38524, com.serotonin.mango.view.ImageSet@5351e760, com.serotonin.mango.view.ImageSet@723531cd, com.serotonin.mango.view.ImageSet@52f6ff0a, com.serotonin.mango.view.ImageSet@252e0d32, com.serotonin.mango.view.ImageSet@7dcf228f, com.serotonin.mango.view.ImageSet@23788398, com.serotonin.mango.view.ImageSet@113370f6, com.serotonin.mango.view.ImageSet@41cc44cc, com.serotonin.mango.view.ImageSet@13468501, com.serotonin.mango.view.ImageSet@2864a546, com.serotonin.mango.view.ImageSet@65dcfffd, com.serotonin.mango.view.ImageSet@2cfe71e2, com.serotonin.mango.view.ImageSet@bfc4aa4, com.serotonin.mango.view.ImageSet@1732ea69, com.serotonin.mango.view.ImageSet@4eb2b468, com.serotonin.mango.view.ImageSet@5de96701, com.serotonin.mango.view.ImageSet@a6de7a6, com.serotonin.mango.view.ImageSet@51a7d721, com.serotonin.mango.view.ImageSet@673b50c0, com.serotonin.mango.view.ImageSet@527aefb2, com.serotonin.mango.view.ImageSet@3441cdea, com.serotonin.mango.view.ImageSet@60704135, com.serotonin.mango.view.ImageSet@5a85afdb, com.serotonin.mango.view.ImageSet@1efa11f5, com.serotonin.mango.view.ImageSet@1fb5246, com.serotonin.mango.view.ImageSet@1d9fe07, com.serotonin.mango.view.ImageSet@63e55bf8, com.serotonin.mango.view.ImageSet@7ccc508b, com.serotonin.mango.view.ImageSet@ff85813, com.serotonin.mango.view.ImageSet@37a051bb]
+   constants.Common.NEW_ID=-1
+   constants.DataSourceVO.Types.VMSTAT=17
+   constants.AuditEventType.TYPE_EVENT_HANDLER=6
+   DATAPOINTS_NAME_ID_MAPPING={Out_Umi_6=23, Out_Umi_5=22, Out_Umi_4=3, Out_Umi_3=2, Out_Umi_2=1, Out_Umi_1=21, Out_Umi_7=24, Auto_Manual_6=52, Auto_Manual_5=51, Auto_Manual_7=53, Auto_Manual_2=48, Auto_Manual_1=47, Auto_Manual_4=50, Auto_Manual_3=49, Ret_Cont_1=32, Ret_Cont_2=33, Ret_Cont_5=36, Ret_Cont_6=37, Ret_Cont_3=34, Ret_Cont_4=35, Ret_Cont_7=38, umi_champ_3=19, umi_champ_2=18, umi_champ_1=17, tem_forn_8=11, tem_forn_7=10, tem_forn_6=9, tem_forn_5=8, tem_forn_4=7, umi_shi_5=16, tem_forn_3=6, tem_forn_2=5, umi_shi_3=14, tem_forn_1=20, umi_shi_4=15, umi_shi_1=12, umi_shi_2=13, Out_Temp_1=25, Out_Temp_4=28, Out_Temp_5=29, Out_Temp_2=26, Out_Temp_3=27, Out_Temp_6=30, Out_Temp_7=31, Out_Term_1=39, Out_Term_6=44, Out_Term_7=45, Out_Term_8=46, Out_Term_2=40, Out_Term_3=41, Out_Term_4=42, Out_Term_5=43}
+   constants.DataSourceVO.Types.RADIUINO=41
+   constants.DataSourceVO.Types.BACNET=10
+   constants.PublisherVO.Types.PACHUBE=2
+   constants.Permissions.DataPointAccessTypes.READ=1
+   org.directwebremoting.ContainerList=[org.directwebremoting.impl.DefaultContainer@4ac35187]
+   constants.EventType.EventSources.SCHEDULED=6
+   constants.DataTypes.BINARY=1
+   constants.SystemEventType.TYPE_SYSTEM_STARTUP=1
+   javax.servlet.ServletConfig=org.apache.catalina.core.StandardWrapperFacade@6e97f707
+   clientSideMessages={common.alarmLevel.lifeSafety=com.serotonin.web.i18n.LocalizableMessage@1c71626, common.disabled=com.serotonin.web.i18n.LocalizableMessage@be9bfeff, header.mute=com.serotonin.web.i18n.LocalizableMessage@43df3cba, header.unmute=com.serotonin.web.i18n.LocalizableMessage@d635aa93, common.alarmLevel.critical=com.serotonin.web.i18n.LocalizableMessage@2b076d7, js.help.loading=com.serotonin.web.i18n.LocalizableMessage@10dfaff4, js.help.related=com.serotonin.web.i18n.LocalizableMessage@3dce6ae3, js.disabledCed=com.serotonin.web.i18n.LocalizableMessage@5d4e0ee1, js.help.lastUpdated=com.serotonin.web.i18n.LocalizableMessage@729293fd, js.email.addAddress=com.serotonin.web.i18n.LocalizableMessage@cbb9a38a, js.disabledSe=com.serotonin.web.i18n.LocalizableMessage@97a7b393, scheduledEvents.se=com.serotonin.web.i18n.LocalizableMessage@b5cc6cfa, js.help.error=com.serotonin.web.i18n.LocalizableMessage@f876c0, js.email.addUser=com.serotonin.web.i18n.LocalizableMessage@49cc77b5, js.email.addMailingList=com.serotonin.web.i18n.LocalizableMessage@6fa4a69f, js.email.noRecipForEmail=com.serotonin.web.i18n.LocalizableMessage@4b694592, common.access.set=com.serotonin.web.i18n.LocalizableMessage@a3e5309b, common.access.read=com.serotonin.web.i18n.LocalizableMessage@d8bff83d, common.sendTestEmail=com.serotonin.web.i18n.LocalizableMessage@8fd89c9f, pointLinks.pointLink=com.serotonin.web.i18n.LocalizableMessage@2c6dd5e5, js.disabledPointLink=com.serotonin.web.i18n.LocalizableMessage@25407509, compoundDetectors.compoundEventDetector=com.serotonin.web.i18n.LocalizableMessage@51020f89, common.disabledToggle=com.serotonin.web.i18n.LocalizableMessage@d7f89333, common.alarmLevel.none=com.serotonin.web.i18n.LocalizableMessage@223c1a70, common.administrator=com.serotonin.web.i18n.LocalizableMessage@a467f3ea, common.enabledToggle=com.serotonin.web.i18n.LocalizableMessage@ea5c2f12, common.alarmLevel.urgent=com.serotonin.web.i18n.LocalizableMessage@8fa9c879, common.minimize=com.serotonin.web.i18n.LocalizableMessage@5d740b21, js.email.noRecipients=com.serotonin.web.i18n.LocalizableMessage@d78563d2, common.user=com.serotonin.web.i18n.LocalizableMessage@8a9479ce, events.silence=com.serotonin.web.i18n.LocalizableMessage@8376c0ac, js.email.testSent=com.serotonin.web.i18n.LocalizableMessage@f59d9881, common.maximize=com.serotonin.web.i18n.LocalizableMessage@c752a74f, events.unsilence=com.serotonin.web.i18n.LocalizableMessage@29ad6533, common.alarmLevel.info=com.serotonin.web.i18n.LocalizableMessage@2239cfe6}
+   constants.DataSourceVO.Types.EBI25=16
+   constants.SystemEventType.TYPE_SET_POINT_HANDLER_FAILURE=7
+   constants.EventType.EventSources.AUDIT=8
+   constants.DataSourceVO.Types.OPEN_V_4_J=19
+   constants.Permissions.DataPointAccessTypes.ADMIN=4
+   constants.DataSourceVO.Types.DR_STORAGE_HT5B=38
+   javax.websocket.server.ServerContainer=org.apache.tomcat.websocket.server.WsServerContainer@59cd6ec4
+   org.directwebremoting.impl.ServerContext=org.directwebremoting.impl.DefaultServerContext@479029a0
+   AdminServletAxisEngine=org.apache.axis.server.AxisServer@7ccc8544
+   constants.DataSourceVO.Types.MODBUS_SERIAL=2
+   constants.DataSourceVO.Types.POP3=12
+   org.apache.tomcat.JarScanner=org.apache.tomcat.util.scan.StandardJarScanner@3310b340
+   constants.DataSourceVO.Types.VICONICS=18
+   FREEMARKER_CONFIG=freemarker.template.Configuration@62ee45ea
+   constants.DataSourceVO.Types.SQL=6
+   constants.DataSourceVO.Types.MODBUS_IP=3
+   constants.AuditEventType.TYPE_SCHEDULED_EVENT=5
+   constants.SystemEventType.TYPE_SYSTEM_SHUTDOWN=2
+   constants.DataSourceVO.Types.ASCII_SERIAL=34
+   constants.DataSourceVO.Types.HTTP_RECEIVER=7
+   constants.DataSourceVO.Types.DNP3_IP=21
+   BACKGROUND_PROCESSING=com.serotonin.mango.rt.maint.BackgroundProcessing@50e7bc3d
+   constants.EventType.EventSources.COMPOUND=5
+   constants.DataSourceVO.Types.VIRTUAL=1
+   org.apache.jasper.runtime.JspApplicationContextImpl=org.apache.jasper.runtime.JspApplicationContextImpl@167c52a8
+   javax.servlet.context.tempdir=C:\Program Files\ScadaBR\tomcat\work\Catalina\localhost\ScadaBR
+   constants.DataSourceVO.Types.META=9
+   constants.DataSourceVO.Types.INTERNAL=27
+   org.apache.tomcat.InstanceManager=org.apache.catalina.core.DefaultInstanceManager@20c07994
+   constants.DataSourceVO.Types.DNP3_SERIAL=22
+   org.directwebremoting.Container=org.directwebremoting.impl.DefaultContainer@4ac35187
+   org.apache.jasper.compiler.TldCache=org.apache.jasper.compiler.TldCache@3011b973
+   DATABASE_ACCESS=com.serotonin.mango.db.DerbyAccess@5dfafd18
+   constants.DataSourceVO.Types.IEC101_ETHERNET=36
+   constants.SystemEventType.TYPE_PROCESS_FAILURE=10
+   constants.SystemEventType.TYPE_MAX_ALARM_LEVEL_CHANGED=3
+   constants.DataSourceVO.Types.M_BUS=20
+   constants.DataSourceVO.Types.IEC101_SERIAL=35
+ 
+WARN  2022-11-17 20:40:58,672 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:59,546 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:40:59,897 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:41:00,408 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:41:00,423 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:41:00,648 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:41:01,545 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:41:01,562 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:41:01,779 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:41:01,794 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:41:02,005 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:10,313 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:11,341 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:11,355 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:11,619 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:11,633 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:11,903 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:11,917 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:12,165 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:12,181 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:12,443 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:12,457 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:12,713 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:12,728 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:13,048 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:13,062 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:13,296 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:13,624 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:49,993 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-17 20:42:51,092 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-19 11:29:47,624 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:48,670 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:48,806 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:49,001 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:49,125 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:49,249 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:49,475 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:49,700 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:50,092 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:50,224 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:50,628 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:50,820 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:51,028 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:51,149 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:51,594 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:52,077 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:52,337 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:52,457 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:52,545 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:52,707 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:52,826 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:53,032 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:29:54,568 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:01,602 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:03,251 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:05,678 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:06,334 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:06,534 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:06,693 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:06,874 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:07,022 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:07,150 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:21,507 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:21,884 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:22,298 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:22,959 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:23,528 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:24,072 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:24,790 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:25,148 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:25,308 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:25,472 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:25,704 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:25,760 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:25,872 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:26,560 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:26,741 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:26,906 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:27,074 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:27,176 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:27,348 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:27,479 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:27,588 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:27,689 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:27,928 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:28,051 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:28,244 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:28,462 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:28,554 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:28,680 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:28,841 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:28,945 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:28,957 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:29,252 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:29,433 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:29,615 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:30,013 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:57,460 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:30:57,973 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:31:02,504 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:31:03,143 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:31:03,291 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:31:03,430 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:31:03,565 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-19 11:31:03,703 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: Cannot read properties of undefined (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/fuscabr/modules/minified/align.js
+   Line: 5
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-21 21:28:58,240 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught Profile name empty
+   Page: http://localhost:8080/ScadaBR/usersProfiles.shtm
+   Line: 385
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/usersProfiles.shtm 

@@ -1,0 +1,183 @@
+INFO  2022-11-04 17:41:43,009 (com.serotonin.mango.MangoContextListener.contextDestroyed:145) - Mango context terminating 
+INFO  2022-11-04 17:41:43,100 (com.serotonin.mango.MangoContextListener.contextDestroyed:168) - Mango context terminated 
+INFO  2022-11-04 17:42:04,449 (com.serotonin.mango.MangoContextListener.contextInitialized:85) - Mango context starting 
+INFO  2022-11-04 17:42:04,476 (com.serotonin.mango.MangoContextListener.contextInitialized:95) - Max threads: 1000 
+INFO  2022-11-04 17:42:08,660 (com.serotonin.mango.MangoContextListener.contextInitialized:140) - Mango context started 
+WARN  2022-11-04 19:09:13,933 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught Error: Cannot read properties of null (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/dojo/dojo.js
+   Line: 96
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-11-04 19:54:47,518 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:54:48,661 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:54:48,796 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:54:48,916 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:54:49,269 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:54:49,423 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:54:49,668 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:57:57,140 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:57:59,311 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:52,995 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:53,296 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:53,438 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:53,568 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:53,693 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:53,847 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:53,990 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:54,131 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:54,268 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:56,372 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:56,825 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+WARN  2022-11-04 19:58:58,038 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught TypeError: mango.view.setPoint is not a function
+   Page: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7
+   Line: 1
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=7 
+INFO  2022-11-04 20:03:23,401 (com.serotonin.mango.MangoContextListener.contextDestroyed:145) - Mango context terminating 
+INFO  2022-11-04 20:03:25,084 (com.serotonin.mango.MangoContextListener.contextDestroyed:168) - Mango context terminated 

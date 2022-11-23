@@ -1,0 +1,68 @@
+
+2022-11-10 17:22:01 Apache Commons Daemon procrun stderr initialized.
+10-Nov-2022 17:22:04.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.52
+10-Nov-2022 17:22:04.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 31 2021 04:12:17 UTC
+10-Nov-2022 17:22:04.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.52.0
+10-Nov-2022 17:22:04.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Nov-2022 17:22:04.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Nov-2022 17:22:04.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.17
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.17+10-LTS-269
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\ScadaBR\tomcat
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\ScadaBR\tomcat
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.servlet.request.encoding=UTF-8
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\ScadaBR\tomcat
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\ScadaBR\tomcat
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\ScadaBR\tomcat\temp
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\ScadaBR\tomcat\conf\logging.properties
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+10-Nov-2022 17:22:04.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+10-Nov-2022 17:22:04.125 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+10-Nov-2022 17:22:04.125 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+10-Nov-2022 17:22:04.125 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-Nov-2022 17:22:04.133 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+10-Nov-2022 17:22:04.568 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Nov-2022 17:22:04.601 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [892] milliseconds
+10-Nov-2022 17:22:04.699 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2022 17:22:04.699 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.52]
+10-Nov-2022 17:22:04.790 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\ScadaBR\tomcat\webapps\ScadaBR.war]
+10-Nov-2022 17:22:17.335 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Nov-2022 17:22:22.188 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [187] milliseconds.
+10-Nov-2022 17:22:23.661 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\ScadaBR\tomcat\webapps\ScadaBR.war] has finished in [18.871] ms
+10-Nov-2022 17:22:23.661 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\docs]
+10-Nov-2022 17:22:23.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\docs] has finished in [46] ms
+10-Nov-2022 17:22:23.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\examples]
+10-Nov-2022 17:22:25.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\examples] has finished in [1.366] ms
+10-Nov-2022 17:22:25.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\host-manager]
+10-Nov-2022 17:22:25.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\host-manager] has finished in [57] ms
+10-Nov-2022 17:22:25.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\manager]
+10-Nov-2022 17:22:25.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\manager] has finished in [47] ms
+10-Nov-2022 17:22:25.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Program Files\ScadaBR\tomcat\webapps\ROOT]
+10-Nov-2022 17:22:25.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\ScadaBR\tomcat\webapps\ROOT] has finished in [43] ms
+10-Nov-2022 17:22:25.228 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Nov-2022 17:22:25.423 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [20819] milliseconds
+Exception in thread "Serotonin Timer" Exception in thread "pool-1-thread-14116" java.util.concurrent.RejectedExecutionException: Task com.serotonin.mango.util.timeout.TimeoutTask@2740cac8 rejected from java.util.concurrent.ThreadPoolExecutor@469d1762[Running, pool size = 1000, active threads = 973, queued tasks = 0, completed tasks = 45894]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at com.serotonin.timer.TimerThread.mainLoop(TimerThread.java:90)
+	at com.serotonin.timer.TimerThread.run(TimerThread.java:29)
+java.lang.IllegalStateException: Timer already cancelled.
+	at com.serotonin.timer.RealTimeTimer.scheduleImpl(RealTimeTimer.java:76)
+	at com.serotonin.timer.AbstractTimer.schedule(AbstractTimer.java:15)
+	at com.serotonin.mango.rt.dataSource.meta.MetaPointLocatorRT$ScheduledUpdateTimeout.<init>(MetaPointLocatorRT.java:186)
+	at com.serotonin.mango.rt.dataSource.meta.MetaPointLocatorRT$ScheduledUpdateTimeout.run(MetaPointLocatorRT.java:197)
+	at com.serotonin.timer.TimerTask.run(TimerTask.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)

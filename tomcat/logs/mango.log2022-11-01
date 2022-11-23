@@ -1,0 +1,1326 @@
+ERROR 2022-11-01 16:48:33,864 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=true
+   includeUploadsFolder=true
+   includeGraphicsFolder=true
+   projectDescription=
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=true&includeUploadsFolder=true&includeGraphicsFolder=true&projectDescription=&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@2d0fa7b
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@341d13fb, com.serotonin.db.KeyValuePair@28f7657c, com.serotonin.db.KeyValuePair@2d72f434, com.serotonin.db.KeyValuePair@2874c0c3, com.serotonin.db.KeyValuePair@742a9cfd, com.serotonin.db.KeyValuePair@6765cb81, com.serotonin.db.KeyValuePair@5d8c500d, com.serotonin.db.KeyValuePair@53f0e1a7, com.serotonin.db.KeyValuePair@731d4250, com.serotonin.db.KeyValuePair@3aeda671]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332035462
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@48e17660, com.serotonin.mango.web.dwr.longPoll.LongPollData@1f689f23, com.serotonin.mango.web.dwr.longPoll.LongPollData@6eef278a, com.serotonin.mango.web.dwr.longPoll.LongPollData@27a025a, com.serotonin.mango.web.dwr.longPoll.LongPollData@41eb3603, com.serotonin.mango.web.dwr.longPoll.LongPollData@1aa1289a, com.serotonin.mango.web.dwr.longPoll.LongPollData@de59f33, com.serotonin.mango.web.dwr.longPoll.LongPollData@5fdf2407, com.serotonin.mango.web.dwr.longPoll.LongPollData@479c5ad1]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:48:35,135 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=true
+   includeUploadsFolder=true
+   includeGraphicsFolder=true
+   projectDescription=
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=true&includeUploadsFolder=true&includeGraphicsFolder=true&projectDescription=&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@53cba8af
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@66520157, com.serotonin.db.KeyValuePair@192f2223, com.serotonin.db.KeyValuePair@70d2570, com.serotonin.db.KeyValuePair@90d7bee, com.serotonin.db.KeyValuePair@7fa38b21, com.serotonin.db.KeyValuePair@1f7d80cc, com.serotonin.db.KeyValuePair@713510f6, com.serotonin.db.KeyValuePair@1305d735, com.serotonin.db.KeyValuePair@709cacf7, com.serotonin.db.KeyValuePair@39439c8]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332035462
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@48e17660, com.serotonin.mango.web.dwr.longPoll.LongPollData@1f689f23, com.serotonin.mango.web.dwr.longPoll.LongPollData@6eef278a, com.serotonin.mango.web.dwr.longPoll.LongPollData@27a025a, com.serotonin.mango.web.dwr.longPoll.LongPollData@41eb3603, com.serotonin.mango.web.dwr.longPoll.LongPollData@1aa1289a, com.serotonin.mango.web.dwr.longPoll.LongPollData@de59f33, com.serotonin.mango.web.dwr.longPoll.LongPollData@5fdf2407, com.serotonin.mango.web.dwr.longPoll.LongPollData@479c5ad1]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:48:40,174 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=true
+   includeUploadsFolder=true
+   includeGraphicsFolder=true
+   projectDescription=
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=true&includeUploadsFolder=true&includeGraphicsFolder=true&projectDescription=&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@40e6b5c7
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@289489a5, com.serotonin.db.KeyValuePair@3130a300, com.serotonin.db.KeyValuePair@6c6177e8, com.serotonin.db.KeyValuePair@195cbf2e, com.serotonin.db.KeyValuePair@1509c401, com.serotonin.db.KeyValuePair@21155d03, com.serotonin.db.KeyValuePair@46aca0fe, com.serotonin.db.KeyValuePair@3af5d2ca, com.serotonin.db.KeyValuePair@61073059, com.serotonin.db.KeyValuePair@6af1943f]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332035462
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@48e17660, com.serotonin.mango.web.dwr.longPoll.LongPollData@1f689f23, com.serotonin.mango.web.dwr.longPoll.LongPollData@6eef278a, com.serotonin.mango.web.dwr.longPoll.LongPollData@27a025a, com.serotonin.mango.web.dwr.longPoll.LongPollData@41eb3603, com.serotonin.mango.web.dwr.longPoll.LongPollData@1aa1289a, com.serotonin.mango.web.dwr.longPoll.LongPollData@de59f33, com.serotonin.mango.web.dwr.longPoll.LongPollData@5fdf2407, com.serotonin.mango.web.dwr.longPoll.LongPollData@479c5ad1]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:49:28,417 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=true
+   includeUploadsFolder=true
+   includeGraphicsFolder=true
+   projectDescription=
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=true&includeUploadsFolder=true&includeGraphicsFolder=true&projectDescription=&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@4615a576
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@43b85138, com.serotonin.db.KeyValuePair@b8e2cf4, com.serotonin.db.KeyValuePair@7727dcd5, com.serotonin.db.KeyValuePair@1cf2f952, com.serotonin.db.KeyValuePair@1d424a65, com.serotonin.db.KeyValuePair@67d12cb5, com.serotonin.db.KeyValuePair@2e5995ee, com.serotonin.db.KeyValuePair@256ac11e, com.serotonin.db.KeyValuePair@2a74b6b4, com.serotonin.db.KeyValuePair@442e83cb]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332035462
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@48e17660, com.serotonin.mango.web.dwr.longPoll.LongPollData@1f689f23, com.serotonin.mango.web.dwr.longPoll.LongPollData@6eef278a, com.serotonin.mango.web.dwr.longPoll.LongPollData@27a025a, com.serotonin.mango.web.dwr.longPoll.LongPollData@41eb3603, com.serotonin.mango.web.dwr.longPoll.LongPollData@1aa1289a, com.serotonin.mango.web.dwr.longPoll.LongPollData@de59f33, com.serotonin.mango.web.dwr.longPoll.LongPollData@5fdf2407, com.serotonin.mango.web.dwr.longPoll.LongPollData@479c5ad1]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:49:29,713 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=true
+   includeUploadsFolder=true
+   includeGraphicsFolder=true
+   projectDescription=
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=true&includeUploadsFolder=true&includeGraphicsFolder=true&projectDescription=&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@625c6c77
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@71968d01, com.serotonin.db.KeyValuePair@4ca09a3d, com.serotonin.db.KeyValuePair@45fdc40d, com.serotonin.db.KeyValuePair@44433711, com.serotonin.db.KeyValuePair@1f8441d, com.serotonin.db.KeyValuePair@4941476d, com.serotonin.db.KeyValuePair@62b72fe4, com.serotonin.db.KeyValuePair@3f11771c, com.serotonin.db.KeyValuePair@7c0a144f, com.serotonin.db.KeyValuePair@3fb34e8c]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332035462
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@48e17660, com.serotonin.mango.web.dwr.longPoll.LongPollData@1f689f23, com.serotonin.mango.web.dwr.longPoll.LongPollData@6eef278a, com.serotonin.mango.web.dwr.longPoll.LongPollData@27a025a, com.serotonin.mango.web.dwr.longPoll.LongPollData@41eb3603, com.serotonin.mango.web.dwr.longPoll.LongPollData@1aa1289a, com.serotonin.mango.web.dwr.longPoll.LongPollData@de59f33, com.serotonin.mango.web.dwr.longPoll.LongPollData@5fdf2407, com.serotonin.mango.web.dwr.longPoll.LongPollData@479c5ad1]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:49:34,751 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=true
+   includeUploadsFolder=true
+   includeGraphicsFolder=true
+   projectDescription=
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=true&includeUploadsFolder=true&includeGraphicsFolder=true&projectDescription=&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@3ee1cac5
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@5ce0ef5a, com.serotonin.db.KeyValuePair@6d32973d, com.serotonin.db.KeyValuePair@58531e0a, com.serotonin.db.KeyValuePair@68545027, com.serotonin.db.KeyValuePair@3395f848, com.serotonin.db.KeyValuePair@4a670a78, com.serotonin.db.KeyValuePair@a84ee70, com.serotonin.db.KeyValuePair@409b526f, com.serotonin.db.KeyValuePair@5c50a58c, com.serotonin.db.KeyValuePair@2e1650b4]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332035462
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@48e17660, com.serotonin.mango.web.dwr.longPoll.LongPollData@1f689f23, com.serotonin.mango.web.dwr.longPoll.LongPollData@6eef278a, com.serotonin.mango.web.dwr.longPoll.LongPollData@27a025a, com.serotonin.mango.web.dwr.longPoll.LongPollData@41eb3603, com.serotonin.mango.web.dwr.longPoll.LongPollData@1aa1289a, com.serotonin.mango.web.dwr.longPoll.LongPollData@de59f33, com.serotonin.mango.web.dwr.longPoll.LongPollData@5fdf2407, com.serotonin.mango.web.dwr.longPoll.LongPollData@479c5ad1]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:59:14,457 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=true
+   includeUploadsFolder=false
+   includeGraphicsFolder=false
+   projectDescription=
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no; SLG_G_WPT_TO=pt; SLG_GWPT_Show_Hide_tmp=undefined; SLG_wptGlobTipTmp=undefined
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=true&includeUploadsFolder=false&includeGraphicsFolder=false&projectDescription=&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@61197287
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@6bcdaf40, com.serotonin.db.KeyValuePair@4044a0d0, com.serotonin.db.KeyValuePair@13619ad0, com.serotonin.db.KeyValuePair@39c64f71, com.serotonin.db.KeyValuePair@3f7740a6, com.serotonin.db.KeyValuePair@5a5035b8, com.serotonin.db.KeyValuePair@45788338, com.serotonin.db.KeyValuePair@4e4ef121, com.serotonin.db.KeyValuePair@4b39ea3e, com.serotonin.db.KeyValuePair@109ffb14]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332681234
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@117fcb7c, com.serotonin.mango.web.dwr.longPoll.LongPollData@2801f78b]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:59:15,517 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=true
+   includeUploadsFolder=false
+   includeGraphicsFolder=false
+   projectDescription=
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no; SLG_G_WPT_TO=pt; SLG_GWPT_Show_Hide_tmp=undefined; SLG_wptGlobTipTmp=undefined
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=true&includeUploadsFolder=false&includeGraphicsFolder=false&projectDescription=&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@c054c24
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@6e10d6, com.serotonin.db.KeyValuePair@47cd244e, com.serotonin.db.KeyValuePair@686194ae, com.serotonin.db.KeyValuePair@4e2391ea, com.serotonin.db.KeyValuePair@3e3bd058, com.serotonin.db.KeyValuePair@10fa7c85, com.serotonin.db.KeyValuePair@745a4ed0, com.serotonin.db.KeyValuePair@26a43d70, com.serotonin.db.KeyValuePair@467d80ec, com.serotonin.db.KeyValuePair@520d2f2]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332681234
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@117fcb7c, com.serotonin.mango.web.dwr.longPoll.LongPollData@2801f78b]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:59:31,628 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=true
+   includeUploadsFolder=false
+   includeGraphicsFolder=false
+   projectDescription=testezin
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no; SLG_G_WPT_TO=pt; SLG_GWPT_Show_Hide_tmp=undefined; SLG_wptGlobTipTmp=undefined
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=true&includeUploadsFolder=false&includeGraphicsFolder=false&projectDescription=testezin&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@17f44d03
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@4198290d, com.serotonin.db.KeyValuePair@699ca9c, com.serotonin.db.KeyValuePair@3319eb6, com.serotonin.db.KeyValuePair@36184786, com.serotonin.db.KeyValuePair@3648d009, com.serotonin.db.KeyValuePair@7e4d2176, com.serotonin.db.KeyValuePair@7186c427, com.serotonin.db.KeyValuePair@55699e6, com.serotonin.db.KeyValuePair@756ed9dd, com.serotonin.db.KeyValuePair@623f0097]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332681234
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@117fcb7c, com.serotonin.mango.web.dwr.longPoll.LongPollData@2801f78b]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:59:32,968 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=true
+   includeUploadsFolder=false
+   includeGraphicsFolder=false
+   projectDescription=testezin
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no; SLG_G_WPT_TO=pt; SLG_GWPT_Show_Hide_tmp=undefined; SLG_wptGlobTipTmp=undefined
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=true&includeUploadsFolder=false&includeGraphicsFolder=false&projectDescription=testezin&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@3c6cb5c1
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@3c78a4f4, com.serotonin.db.KeyValuePair@67ee60ad, com.serotonin.db.KeyValuePair@63b88786, com.serotonin.db.KeyValuePair@3aa3e48d, com.serotonin.db.KeyValuePair@4385b829, com.serotonin.db.KeyValuePair@57fa53fc, com.serotonin.db.KeyValuePair@70597a32, com.serotonin.db.KeyValuePair@55fb6f38, com.serotonin.db.KeyValuePair@3bd1c15e, com.serotonin.db.KeyValuePair@3eb1006b]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332681234
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@117fcb7c, com.serotonin.mango.web.dwr.longPoll.LongPollData@2801f78b]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:59:38,005 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=true
+   includeUploadsFolder=false
+   includeGraphicsFolder=false
+   projectDescription=testezin
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no; SLG_G_WPT_TO=pt; SLG_GWPT_Show_Hide_tmp=undefined; SLG_wptGlobTipTmp=undefined
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=true&includeUploadsFolder=false&includeGraphicsFolder=false&projectDescription=testezin&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@680aa4aa
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@672c3d8e, com.serotonin.db.KeyValuePair@49a99ee1, com.serotonin.db.KeyValuePair@15cde3e3, com.serotonin.db.KeyValuePair@285f3a04, com.serotonin.db.KeyValuePair@2e99a2cc, com.serotonin.db.KeyValuePair@2b427f68, com.serotonin.db.KeyValuePair@51ea5318, com.serotonin.db.KeyValuePair@34cc3b, com.serotonin.db.KeyValuePair@63d88133, com.serotonin.db.KeyValuePair@5b590b1f]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332681234
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@117fcb7c, com.serotonin.mango.web.dwr.longPoll.LongPollData@2801f78b]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:59:47,095 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=false
+   includeUploadsFolder=false
+   includeGraphicsFolder=true
+   projectDescription=testezin
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no; SLG_G_WPT_TO=pt; SLG_GWPT_Show_Hide_tmp=undefined; SLG_wptGlobTipTmp=undefined
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=false&includeUploadsFolder=false&includeGraphicsFolder=true&projectDescription=testezin&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@2aeca0ee
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@a258478, com.serotonin.db.KeyValuePair@6817f17b, com.serotonin.db.KeyValuePair@723024e2, com.serotonin.db.KeyValuePair@3d94119a, com.serotonin.db.KeyValuePair@1b345414, com.serotonin.db.KeyValuePair@4cfff220, com.serotonin.db.KeyValuePair@3f1bc869, com.serotonin.db.KeyValuePair@229e16d1, com.serotonin.db.KeyValuePair@1b336262, com.serotonin.db.KeyValuePair@286eedd6]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332681234
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@117fcb7c, com.serotonin.mango.web.dwr.longPoll.LongPollData@2801f78b]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 
+ERROR 2022-11-01 16:59:48,382 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - com.serotonin.mango.vo.permission.PermissionException: Not logged in
+	at com.serotonin.mango.vo.permission.Permissions.ensureValidUser(Permissions.java:67)
+	at com.serotonin.mango.vo.permission.Permissions.hasAdmin(Permissions.java:84)
+	at com.serotonin.mango.vo.permission.Permissions.ensureAdmin(Permissions.java:97)
+	at com.serotonin.mango.web.dwr.EmportDwr.createExportJSON(EmportDwr.java:113)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.buildJSONFile(ZIPProjectManager.java:194)
+	at br.org.scadabr.vo.exporter.ZIPProjectManager.exportProject(ZIPProjectManager.java:61)
+	at br.org.scadabr.web.mvc.controller.ProjectExporterController.handleRequestInternal(ProjectExporterController.java:22)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:453)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/accessDenied.jsp
+
+REQUEST PARAMETERS
+   projectName=Projeto Colheita Feliz
+   includePointValues=false
+   includeUploadsFolder=false
+   includeGraphicsFolder=true
+   projectDescription=testezin
+   pointValuesMaxZip=100
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.106 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/emport.shtm
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=theme=green.css; JSESSIONID=D95BB03795B45776D5763223B8369282; fullScreen=no; SLG_G_WPT_TO=pt; SLG_GWPT_Show_Hide_tmp=undefined; SLG_wptGlobTipTmp=undefined
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/export_project.htm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/export_project.htm
+   javax.servlet.forward.query_string=projectName=Projeto%20Colheita%20Feliz&includePointValues=false&includeUploadsFolder=false&includeGraphicsFolder=true&projectDescription=testezin&pointValuesMaxZip=100
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@1d164a13
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   availableLanguages=[com.serotonin.db.KeyValuePair@51eab13e, com.serotonin.db.KeyValuePair@62f87d35, com.serotonin.db.KeyValuePair@45766b3b, com.serotonin.db.KeyValuePair@6a1fe754, com.serotonin.db.KeyValuePair@6ef8d868, com.serotonin.db.KeyValuePair@4f481157, com.serotonin.db.KeyValuePair@39119436, com.serotonin.db.KeyValuePair@2c21e107, com.serotonin.db.KeyValuePair@4b25773, com.serotonin.db.KeyValuePair@bff3c1b]
+   javax.servlet.error.message=Request processing failed; nested exception is com.serotonin.mango.vo.permission.PermissionException: Not logged in
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@7481775c: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 17:43:39 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@191a3448
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@55e9519
+   NEW_ID=-1
+   javax.servlet.error.exception_type=class com.serotonin.mango.vo.permission.PermissionException
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/export_project.htm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/export_project.htm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@51f7a1cc
+   javax.servlet.error.exception=com.serotonin.mango.vo.permission.PermissionException: Not logged in
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667332681234
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@117fcb7c, com.serotonin.mango.web.dwr.longPoll.LongPollData@2801f78b]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+ 

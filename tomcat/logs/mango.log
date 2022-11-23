@@ -1,0 +1,8 @@
+WARN  2022-11-21 21:28:58,240 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught Profile name empty
+   Page: http://localhost:8080/ScadaBR/usersProfiles.shtm
+   Line: 385
+   Browser name: Chrome
+   Browser version: 106
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/usersProfiles.shtm 

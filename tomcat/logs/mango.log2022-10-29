@@ -1,0 +1,1125 @@
+INFO  2022-10-29 14:42:44,583 (com.serotonin.mango.MangoContextListener.contextInitialized:85) - Mango context starting 
+INFO  2022-10-29 14:42:44,633 (com.serotonin.mango.MangoContextListener.contextInitialized:95) - Max threads: 1000 
+INFO  2022-10-29 14:42:53,985 (com.serotonin.mango.MangoContextListener.contextInitialized:140) - Mango context started 
+ERROR 2022-10-29 14:48:17,862 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:535)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:463)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.WebContextFilter.doFilter(WebContextFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.LoggedInFilter.doFilter(LoggedInFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at com.serotonin.mango.web.mvc.controller.ViewEditController.onSubmit(ViewEditController.java:191)
+	at org.springframework.web.servlet.mvc.SimpleFormController.processFormSubmission(SimpleFormController.java:267)
+	at org.springframework.web.servlet.mvc.AbstractFormController.handleRequestInternal(AbstractFormController.java:265)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	... 34 more
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/error.jsp
+
+REQUEST PARAMETERS
+   viewId=6
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   content-length=521
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   origin=http://localhost:8080
+   content-type=multipart/form-data; boundary=----WebKitFormBoundaryC6ksABndgAA7czwn
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.102 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=JSESSIONID=611668918CADAA0BB68E40C8F2168B17; theme=green.css
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/view_edit.shtm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/view_edit.shtm
+   javax.servlet.forward.query_string=viewId=6
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@22bf70ed
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   availableLanguages=[com.serotonin.db.KeyValuePair@40df7f4b, com.serotonin.db.KeyValuePair@43d2819a, com.serotonin.db.KeyValuePair@5eada6e6, com.serotonin.db.KeyValuePair@74c8dc6, com.serotonin.db.KeyValuePair@3cd29f43, com.serotonin.db.KeyValuePair@6b5b1712, com.serotonin.db.KeyValuePair@58f21609, com.serotonin.db.KeyValuePair@3b33826c, com.serotonin.db.KeyValuePair@13b33ace, com.serotonin.db.KeyValuePair@20e35c2d]
+   sessionUser=com.serotonin.mango.vo.User@20
+   javax.servlet.error.message=
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@68695466
+   NEW_ID=-1
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/view_edit.shtm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/view_edit.shtm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@4f6e9be5
+   javax.servlet.error.exception=org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667065412870
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@4581bd8c, com.serotonin.mango.web.dwr.longPoll.LongPollData@7f399325, com.serotonin.mango.web.dwr.longPoll.LongPollData@5dd132c0, com.serotonin.mango.web.dwr.longPoll.LongPollData@665b3b2c, com.serotonin.mango.web.dwr.longPoll.LongPollData@2efe87b6, com.serotonin.mango.web.dwr.longPoll.LongPollData@1ded89f7, com.serotonin.mango.web.dwr.longPoll.LongPollData@497effb8, com.serotonin.mango.web.dwr.longPoll.LongPollData@76433fe0]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+
+
+CONTEXT ATTRIBUTES
+   RUNTIME_MANAGER=com.serotonin.mango.rt.RuntimeManager@2cdac5a9
+   constants.EventType.EventSources.SYSTEM=4
+   org.apache.catalina.resources=org.apache.catalina.webresources.StandardRoot@5d0953f4
+   constants.PublisherVO.Types.HTTP_SENDER=1
+   USER_CACHE=br.org.scadabr.vo.userCache.UserCache@63b4e4d2
+   DwrContainer=org.directwebremoting.impl.DefaultContainer@c676b7b
+   constants.DataSourceVO.Types.OPC=32
+   constants.SystemEventType.TYPE_POINT_LINK_FAILURE=9
+   constants.EventType.EventSources.PUBLISHER=7
+   constants.SystemEventType.TYPE_USER_LOGIN=4
+   constants.DataSourceVO.Types.JMX=26
+   constants.EventType.EventSources.DATA_POINT=1
+   DYNAMIC_IMAGES=[com.serotonin.mango.view.DynamicImage@3e8b6686, com.serotonin.mango.view.DynamicImage@4320a904, com.serotonin.mango.view.DynamicImage@19fde5b6, com.serotonin.mango.view.DynamicImage@6ad600a8]
+   constants.UserComment.TYPE_EVENT=1
+   AxisEngine=org.apache.axis.server.AxisServer@766a10d3
+   constants.DataSourceVO.Types.ONE_WIRE=8
+   org.apache.catalina.webappVersion=
+   javax.servlet.http.HttpServlet=org.directwebremoting.servlet.DwrServlet@61eb6b19
+   constants.DataSourceVO.Types.PACHUBE=23
+   constants.DataTypes.ALPHANUMERIC=4
+   constants.Permissions.DataPointAccessTypes.SET=2
+   constants.DataSourceVO.Types.SNMP=5
+   constants.EventType.EventSources.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_SOURCE=1
+   constants.SystemEventType.TYPE_EMAIL_SEND_FAILURE=8
+   constants.Permissions.DataPointAccessTypes.NONE=0
+   constants.DataSourceVO.Types.NODAVE_S7=37
+   HTTP_RECEIVER_MULTICASTER=com.serotonin.mango.rt.dataSource.http.HttpReceiverMulticaster@25bd9182
+   constants.DataSourceVO.Types.ALPHA_2=39
+   constants.DataSourceVO.Types.HTTP_RETRIEVER=11
+   constants.DataSourceVO.Types.PERSISTENT=24
+   constants.PublisherVO.Types.PERSISTENT=3
+   constants.DataSourceVO.Types.NMEA=13
+   constants.DataSourceVO.Types.HTTP_IMAGE=15
+   EVENT_MANAGER=com.serotonin.mango.rt.EventManager@12b61afd
+   org.springframework.web.context.WebApplicationContext.ROOT=org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8: display name [Root WebApplicationContext]; startup date [Sat Oct 29 14:42:43 BRT 2022]; root of context hierarchy
+   org.apache.jasper.compiler.StringInterpreter=org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@34fc7cf0
+   constants.AuditEventType.TYPE_POINT_EVENT_DETECTOR=3
+   constants.SystemEventType.TYPE_COMPOUND_DETECTOR_FAILURE=6
+   org.directwebremoting.WebContextFactory$WebContextBuilder=org.directwebremoting.impl.DefaultWebContextBuilder@ef57ad5
+   constants.DataTypes.MULTISTATE=2
+   constants.AuditEventType.TYPE_POINT_LINK=7
+   org.apache.catalina.jsp_classpath=/C:/Program Files/ScadaBR/tomcat/lib/;/C:/Program Files/ScadaBR/tomcat/lib/annotations-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ant.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ha.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ssi.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-storeconfig.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-tribes.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina.jar;/C:/Program Files/ScadaBR/tomcat/lib/ecj-4.20.jar;/C:/Program Files/ScadaBR/tomcat/lib/el-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper-el.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper.jar;/C:/Program Files/ScadaBR/tomcat/lib/jaspic-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jsp-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/servlet-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-coyote.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-dbcp.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-cs.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-de.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-es.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-fr.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ja.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ko.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-pt-BR.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ru.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-zh-CN.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jdbc.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jni.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util-scan.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-websocket.jar;/C:/Program Files/ScadaBR/tomcat/lib/websocket-api.jar;C:\Program Files\ScadaBR\tomcat\bin\bootstrap.jar;C:\Program Files\ScadaBR\tomcat\bin\tomcat-juli.jar
+   constants.UserComment.TYPE_POINT=2
+   constants.EventType.EventSources.MAINTENANCE=9
+   constants.DataTypes.IMAGE=5
+   constants.DataSourceVO.Types.ASCII_FILE=33
+   org.springframework.web.servlet.FrameworkServlet.CONTEXT.springDispatcher=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   constants.DataSourceVO.Types.GALIL=14
+   constants.Permissions.DataPointAccessTypes.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_POINT=2
+   constants.DataTypes.NUMERIC=3
+   constants.AuditEventType.TYPE_COMPOUND_EVENT_DETECTOR=4
+   IMAGE_SETS=[com.serotonin.mango.view.ImageSet@2c222b7f, com.serotonin.mango.view.ImageSet@447d9765, com.serotonin.mango.view.ImageSet@b2897c2, com.serotonin.mango.view.ImageSet@38c31476, com.serotonin.mango.view.ImageSet@2179e854, com.serotonin.mango.view.ImageSet@70f06607, com.serotonin.mango.view.ImageSet@3ef1300f, com.serotonin.mango.view.ImageSet@499bf146, com.serotonin.mango.view.ImageSet@791d7080, com.serotonin.mango.view.ImageSet@3c68c15b, com.serotonin.mango.view.ImageSet@5211e7f1, com.serotonin.mango.view.ImageSet@2df4ea64, com.serotonin.mango.view.ImageSet@2bd2e790, com.serotonin.mango.view.ImageSet@d1712fc, com.serotonin.mango.view.ImageSet@1bc29c83, com.serotonin.mango.view.ImageSet@1d4a711d, com.serotonin.mango.view.ImageSet@749eea32, com.serotonin.mango.view.ImageSet@78835fad, com.serotonin.mango.view.ImageSet@e870496, com.serotonin.mango.view.ImageSet@5a94df26, com.serotonin.mango.view.ImageSet@5382f281, com.serotonin.mango.view.ImageSet@3acbae12, com.serotonin.mango.view.ImageSet@395c526d, com.serotonin.mango.view.ImageSet@3ed56ace, com.serotonin.mango.view.ImageSet@642d40c5, com.serotonin.mango.view.ImageSet@40c33a88, com.serotonin.mango.view.ImageSet@25817fd3, com.serotonin.mango.view.ImageSet@2e3accaf, com.serotonin.mango.view.ImageSet@457950cd, com.serotonin.mango.view.ImageSet@31060c22, com.serotonin.mango.view.ImageSet@d97e6c5, com.serotonin.mango.view.ImageSet@4c3c0ecb, com.serotonin.mango.view.ImageSet@ba32769, com.serotonin.mango.view.ImageSet@1cd345c1, com.serotonin.mango.view.ImageSet@10d08337, com.serotonin.mango.view.ImageSet@224262b4, com.serotonin.mango.view.ImageSet@2381d248, com.serotonin.mango.view.ImageSet@629e401e, com.serotonin.mango.view.ImageSet@2fa5309a, com.serotonin.mango.view.ImageSet@497a2, com.serotonin.mango.view.ImageSet@6f1ccdbe, com.serotonin.mango.view.ImageSet@3a83286f, com.serotonin.mango.view.ImageSet@776c32b1, com.serotonin.mango.view.ImageSet@33168a99, com.serotonin.mango.view.ImageSet@f9eaf37, com.serotonin.mango.view.ImageSet@40b99692, com.serotonin.mango.view.ImageSet@1718678e, com.serotonin.mango.view.ImageSet@cbf676d, com.serotonin.mango.view.ImageSet@57af93a5, com.serotonin.mango.view.ImageSet@57a5f00f, com.serotonin.mango.view.ImageSet@c12ef22, com.serotonin.mango.view.ImageSet@1e4971f9, com.serotonin.mango.view.ImageSet@4c91aae5, com.serotonin.mango.view.ImageSet@7eef6162, com.serotonin.mango.view.ImageSet@693ffe59, com.serotonin.mango.view.ImageSet@34b3b628, com.serotonin.mango.view.ImageSet@d06ebb9, com.serotonin.mango.view.ImageSet@5a7db39d, com.serotonin.mango.view.ImageSet@64b9040, com.serotonin.mango.view.ImageSet@509fddd, com.serotonin.mango.view.ImageSet@8c984fc, com.serotonin.mango.view.ImageSet@4f42b84f, com.serotonin.mango.view.ImageSet@62bd302e]
+   constants.Common.NEW_ID=-1
+   constants.DataSourceVO.Types.VMSTAT=17
+   constants.AuditEventType.TYPE_EVENT_HANDLER=6
+   DATAPOINTS_NAME_ID_MAPPING={}
+   constants.DataSourceVO.Types.RADIUINO=41
+   constants.DataSourceVO.Types.BACNET=10
+   constants.PublisherVO.Types.PACHUBE=2
+   constants.Permissions.DataPointAccessTypes.READ=1
+   org.directwebremoting.ContainerList=[org.directwebremoting.impl.DefaultContainer@c676b7b]
+   constants.EventType.EventSources.SCHEDULED=6
+   constants.DataTypes.BINARY=1
+   constants.SystemEventType.TYPE_SYSTEM_STARTUP=1
+   javax.servlet.ServletConfig=org.apache.catalina.core.StandardWrapperFacade@470dcb08
+   clientSideMessages={common.alarmLevel.lifeSafety=com.serotonin.web.i18n.LocalizableMessage@1c71626, common.disabled=com.serotonin.web.i18n.LocalizableMessage@be9bfeff, header.mute=com.serotonin.web.i18n.LocalizableMessage@43df3cba, header.unmute=com.serotonin.web.i18n.LocalizableMessage@d635aa93, common.alarmLevel.critical=com.serotonin.web.i18n.LocalizableMessage@2b076d7, js.help.loading=com.serotonin.web.i18n.LocalizableMessage@10dfaff4, js.help.related=com.serotonin.web.i18n.LocalizableMessage@3dce6ae3, js.disabledCed=com.serotonin.web.i18n.LocalizableMessage@5d4e0ee1, js.help.lastUpdated=com.serotonin.web.i18n.LocalizableMessage@729293fd, js.email.addAddress=com.serotonin.web.i18n.LocalizableMessage@cbb9a38a, js.disabledSe=com.serotonin.web.i18n.LocalizableMessage@97a7b393, scheduledEvents.se=com.serotonin.web.i18n.LocalizableMessage@b5cc6cfa, js.help.error=com.serotonin.web.i18n.LocalizableMessage@f876c0, js.email.addUser=com.serotonin.web.i18n.LocalizableMessage@49cc77b5, js.email.addMailingList=com.serotonin.web.i18n.LocalizableMessage@6fa4a69f, js.email.noRecipForEmail=com.serotonin.web.i18n.LocalizableMessage@4b694592, common.access.set=com.serotonin.web.i18n.LocalizableMessage@a3e5309b, common.access.read=com.serotonin.web.i18n.LocalizableMessage@d8bff83d, common.sendTestEmail=com.serotonin.web.i18n.LocalizableMessage@8fd89c9f, pointLinks.pointLink=com.serotonin.web.i18n.LocalizableMessage@2c6dd5e5, js.disabledPointLink=com.serotonin.web.i18n.LocalizableMessage@25407509, compoundDetectors.compoundEventDetector=com.serotonin.web.i18n.LocalizableMessage@51020f89, common.disabledToggle=com.serotonin.web.i18n.LocalizableMessage@d7f89333, common.alarmLevel.none=com.serotonin.web.i18n.LocalizableMessage@223c1a70, common.administrator=com.serotonin.web.i18n.LocalizableMessage@a467f3ea, common.enabledToggle=com.serotonin.web.i18n.LocalizableMessage@ea5c2f12, common.alarmLevel.urgent=com.serotonin.web.i18n.LocalizableMessage@8fa9c879, common.minimize=com.serotonin.web.i18n.LocalizableMessage@5d740b21, js.email.noRecipients=com.serotonin.web.i18n.LocalizableMessage@d78563d2, common.user=com.serotonin.web.i18n.LocalizableMessage@8a9479ce, events.silence=com.serotonin.web.i18n.LocalizableMessage@8376c0ac, js.email.testSent=com.serotonin.web.i18n.LocalizableMessage@f59d9881, common.maximize=com.serotonin.web.i18n.LocalizableMessage@c752a74f, events.unsilence=com.serotonin.web.i18n.LocalizableMessage@29ad6533, common.alarmLevel.info=com.serotonin.web.i18n.LocalizableMessage@2239cfe6}
+   constants.DataSourceVO.Types.EBI25=16
+   constants.SystemEventType.TYPE_SET_POINT_HANDLER_FAILURE=7
+   constants.EventType.EventSources.AUDIT=8
+   constants.DataSourceVO.Types.OPEN_V_4_J=19
+   org.apache.jasper.compiler.ELInterpreter=org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@65ce40e6
+   constants.Permissions.DataPointAccessTypes.ADMIN=4
+   constants.DataSourceVO.Types.DR_STORAGE_HT5B=38
+   javax.websocket.server.ServerContainer=org.apache.tomcat.websocket.server.WsServerContainer@3282ab53
+   org.directwebremoting.impl.ServerContext=org.directwebremoting.impl.DefaultServerContext@17045c04
+   AdminServletAxisEngine=org.apache.axis.server.AxisServer@766a10d3
+   constants.DataSourceVO.Types.MODBUS_SERIAL=2
+   constants.DataSourceVO.Types.POP3=12
+   org.apache.tomcat.JarScanner=org.apache.tomcat.util.scan.StandardJarScanner@3ef89067
+   constants.DataSourceVO.Types.VICONICS=18
+   FREEMARKER_CONFIG=freemarker.template.Configuration@29262e2e
+   constants.DataSourceVO.Types.SQL=6
+   constants.DataSourceVO.Types.MODBUS_IP=3
+   constants.AuditEventType.TYPE_SCHEDULED_EVENT=5
+   constants.SystemEventType.TYPE_SYSTEM_SHUTDOWN=2
+   constants.DataSourceVO.Types.ASCII_SERIAL=34
+   constants.DataSourceVO.Types.HTTP_RECEIVER=7
+   constants.DataSourceVO.Types.DNP3_IP=21
+   BACKGROUND_PROCESSING=com.serotonin.mango.rt.maint.BackgroundProcessing@ed9c06a
+   constants.EventType.EventSources.COMPOUND=5
+   constants.DataSourceVO.Types.VIRTUAL=1
+   org.apache.jasper.runtime.JspApplicationContextImpl=org.apache.jasper.runtime.JspApplicationContextImpl@3b8859c9
+   javax.servlet.context.tempdir=C:\Program Files\ScadaBR\tomcat\work\Catalina\localhost\ScadaBR
+   constants.DataSourceVO.Types.META=9
+   constants.DataSourceVO.Types.INTERNAL=27
+   org.apache.tomcat.InstanceManager=org.apache.catalina.core.DefaultInstanceManager@41099d77
+   constants.DataSourceVO.Types.DNP3_SERIAL=22
+   org.directwebremoting.Container=org.directwebremoting.impl.DefaultContainer@c676b7b
+   org.apache.jasper.compiler.TldCache=org.apache.jasper.compiler.TldCache@59469c26
+   DATABASE_ACCESS=com.serotonin.mango.db.DerbyAccess@195cddf4
+   constants.DataSourceVO.Types.IEC101_ETHERNET=36
+   constants.SystemEventType.TYPE_PROCESS_FAILURE=10
+   constants.SystemEventType.TYPE_MAX_ALARM_LEVEL_CHANGED=3
+   constants.DataSourceVO.Types.M_BUS=20
+   constants.DataSourceVO.Types.IEC101_SERIAL=35
+ 
+ERROR 2022-10-29 14:48:20,743 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:535)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:463)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.WebContextFilter.doFilter(WebContextFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.LoggedInFilter.doFilter(LoggedInFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at com.serotonin.mango.web.mvc.controller.ViewEditController.onSubmit(ViewEditController.java:191)
+	at org.springframework.web.servlet.mvc.SimpleFormController.processFormSubmission(SimpleFormController.java:267)
+	at org.springframework.web.servlet.mvc.AbstractFormController.handleRequestInternal(AbstractFormController.java:265)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	... 34 more
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/error.jsp
+
+REQUEST PARAMETERS
+   viewId=6
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   content-length=521
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   origin=http://localhost:8080
+   content-type=multipart/form-data; boundary=----WebKitFormBoundary8MtAk67nBNbYAHmT
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.102 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=JSESSIONID=611668918CADAA0BB68E40C8F2168B17; theme=green.css
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/view_edit.shtm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/view_edit.shtm
+   javax.servlet.forward.query_string=viewId=6
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@77c1a226
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   availableLanguages=[com.serotonin.db.KeyValuePair@7becdf3a, com.serotonin.db.KeyValuePair@1b6e17f7, com.serotonin.db.KeyValuePair@5a1e7d65, com.serotonin.db.KeyValuePair@20b42492, com.serotonin.db.KeyValuePair@3d3c2ab1, com.serotonin.db.KeyValuePair@5686534e, com.serotonin.db.KeyValuePair@7f5af9ae, com.serotonin.db.KeyValuePair@7ecbd263, com.serotonin.db.KeyValuePair@227e16a9, com.serotonin.db.KeyValuePair@46063d8b]
+   sessionUser=com.serotonin.mango.vo.User@20
+   javax.servlet.error.message=
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@68695466
+   NEW_ID=-1
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/view_edit.shtm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/view_edit.shtm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@4f6e9be5
+   javax.servlet.error.exception=org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667065412870
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@4581bd8c, com.serotonin.mango.web.dwr.longPoll.LongPollData@7f399325, com.serotonin.mango.web.dwr.longPoll.LongPollData@5dd132c0, com.serotonin.mango.web.dwr.longPoll.LongPollData@665b3b2c, com.serotonin.mango.web.dwr.longPoll.LongPollData@2efe87b6, com.serotonin.mango.web.dwr.longPoll.LongPollData@1ded89f7, com.serotonin.mango.web.dwr.longPoll.LongPollData@497effb8, com.serotonin.mango.web.dwr.longPoll.LongPollData@76433fe0, com.serotonin.mango.web.dwr.longPoll.LongPollData@6e393b6c]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+
+
+CONTEXT ATTRIBUTES
+   RUNTIME_MANAGER=com.serotonin.mango.rt.RuntimeManager@2cdac5a9
+   constants.EventType.EventSources.SYSTEM=4
+   org.apache.catalina.resources=org.apache.catalina.webresources.StandardRoot@5d0953f4
+   constants.PublisherVO.Types.HTTP_SENDER=1
+   USER_CACHE=br.org.scadabr.vo.userCache.UserCache@63b4e4d2
+   DwrContainer=org.directwebremoting.impl.DefaultContainer@c676b7b
+   constants.DataSourceVO.Types.OPC=32
+   constants.SystemEventType.TYPE_POINT_LINK_FAILURE=9
+   constants.EventType.EventSources.PUBLISHER=7
+   constants.SystemEventType.TYPE_USER_LOGIN=4
+   constants.DataSourceVO.Types.JMX=26
+   constants.EventType.EventSources.DATA_POINT=1
+   DYNAMIC_IMAGES=[com.serotonin.mango.view.DynamicImage@3e8b6686, com.serotonin.mango.view.DynamicImage@4320a904, com.serotonin.mango.view.DynamicImage@19fde5b6, com.serotonin.mango.view.DynamicImage@6ad600a8]
+   constants.UserComment.TYPE_EVENT=1
+   AxisEngine=org.apache.axis.server.AxisServer@766a10d3
+   constants.DataSourceVO.Types.ONE_WIRE=8
+   org.apache.catalina.webappVersion=
+   javax.servlet.http.HttpServlet=org.directwebremoting.servlet.DwrServlet@61eb6b19
+   constants.DataSourceVO.Types.PACHUBE=23
+   constants.DataTypes.ALPHANUMERIC=4
+   constants.Permissions.DataPointAccessTypes.SET=2
+   constants.DataSourceVO.Types.SNMP=5
+   constants.EventType.EventSources.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_SOURCE=1
+   constants.SystemEventType.TYPE_EMAIL_SEND_FAILURE=8
+   constants.Permissions.DataPointAccessTypes.NONE=0
+   constants.DataSourceVO.Types.NODAVE_S7=37
+   HTTP_RECEIVER_MULTICASTER=com.serotonin.mango.rt.dataSource.http.HttpReceiverMulticaster@25bd9182
+   constants.DataSourceVO.Types.ALPHA_2=39
+   constants.DataSourceVO.Types.HTTP_RETRIEVER=11
+   constants.DataSourceVO.Types.PERSISTENT=24
+   constants.PublisherVO.Types.PERSISTENT=3
+   constants.DataSourceVO.Types.NMEA=13
+   constants.DataSourceVO.Types.HTTP_IMAGE=15
+   EVENT_MANAGER=com.serotonin.mango.rt.EventManager@12b61afd
+   org.springframework.web.context.WebApplicationContext.ROOT=org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8: display name [Root WebApplicationContext]; startup date [Sat Oct 29 14:42:43 BRT 2022]; root of context hierarchy
+   org.apache.jasper.compiler.StringInterpreter=org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@34fc7cf0
+   constants.AuditEventType.TYPE_POINT_EVENT_DETECTOR=3
+   constants.SystemEventType.TYPE_COMPOUND_DETECTOR_FAILURE=6
+   org.directwebremoting.WebContextFactory$WebContextBuilder=org.directwebremoting.impl.DefaultWebContextBuilder@ef57ad5
+   constants.DataTypes.MULTISTATE=2
+   constants.AuditEventType.TYPE_POINT_LINK=7
+   org.apache.catalina.jsp_classpath=/C:/Program Files/ScadaBR/tomcat/lib/;/C:/Program Files/ScadaBR/tomcat/lib/annotations-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ant.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ha.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ssi.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-storeconfig.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-tribes.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina.jar;/C:/Program Files/ScadaBR/tomcat/lib/ecj-4.20.jar;/C:/Program Files/ScadaBR/tomcat/lib/el-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper-el.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper.jar;/C:/Program Files/ScadaBR/tomcat/lib/jaspic-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jsp-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/servlet-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-coyote.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-dbcp.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-cs.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-de.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-es.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-fr.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ja.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ko.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-pt-BR.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ru.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-zh-CN.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jdbc.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jni.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util-scan.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-websocket.jar;/C:/Program Files/ScadaBR/tomcat/lib/websocket-api.jar;C:\Program Files\ScadaBR\tomcat\bin\bootstrap.jar;C:\Program Files\ScadaBR\tomcat\bin\tomcat-juli.jar
+   constants.UserComment.TYPE_POINT=2
+   constants.EventType.EventSources.MAINTENANCE=9
+   constants.DataTypes.IMAGE=5
+   constants.DataSourceVO.Types.ASCII_FILE=33
+   org.springframework.web.servlet.FrameworkServlet.CONTEXT.springDispatcher=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   constants.DataSourceVO.Types.GALIL=14
+   constants.Permissions.DataPointAccessTypes.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_POINT=2
+   constants.DataTypes.NUMERIC=3
+   constants.AuditEventType.TYPE_COMPOUND_EVENT_DETECTOR=4
+   IMAGE_SETS=[com.serotonin.mango.view.ImageSet@2c222b7f, com.serotonin.mango.view.ImageSet@447d9765, com.serotonin.mango.view.ImageSet@b2897c2, com.serotonin.mango.view.ImageSet@38c31476, com.serotonin.mango.view.ImageSet@2179e854, com.serotonin.mango.view.ImageSet@70f06607, com.serotonin.mango.view.ImageSet@3ef1300f, com.serotonin.mango.view.ImageSet@499bf146, com.serotonin.mango.view.ImageSet@791d7080, com.serotonin.mango.view.ImageSet@3c68c15b, com.serotonin.mango.view.ImageSet@5211e7f1, com.serotonin.mango.view.ImageSet@2df4ea64, com.serotonin.mango.view.ImageSet@2bd2e790, com.serotonin.mango.view.ImageSet@d1712fc, com.serotonin.mango.view.ImageSet@1bc29c83, com.serotonin.mango.view.ImageSet@1d4a711d, com.serotonin.mango.view.ImageSet@749eea32, com.serotonin.mango.view.ImageSet@78835fad, com.serotonin.mango.view.ImageSet@e870496, com.serotonin.mango.view.ImageSet@5a94df26, com.serotonin.mango.view.ImageSet@5382f281, com.serotonin.mango.view.ImageSet@3acbae12, com.serotonin.mango.view.ImageSet@395c526d, com.serotonin.mango.view.ImageSet@3ed56ace, com.serotonin.mango.view.ImageSet@642d40c5, com.serotonin.mango.view.ImageSet@40c33a88, com.serotonin.mango.view.ImageSet@25817fd3, com.serotonin.mango.view.ImageSet@2e3accaf, com.serotonin.mango.view.ImageSet@457950cd, com.serotonin.mango.view.ImageSet@31060c22, com.serotonin.mango.view.ImageSet@d97e6c5, com.serotonin.mango.view.ImageSet@4c3c0ecb, com.serotonin.mango.view.ImageSet@ba32769, com.serotonin.mango.view.ImageSet@1cd345c1, com.serotonin.mango.view.ImageSet@10d08337, com.serotonin.mango.view.ImageSet@224262b4, com.serotonin.mango.view.ImageSet@2381d248, com.serotonin.mango.view.ImageSet@629e401e, com.serotonin.mango.view.ImageSet@2fa5309a, com.serotonin.mango.view.ImageSet@497a2, com.serotonin.mango.view.ImageSet@6f1ccdbe, com.serotonin.mango.view.ImageSet@3a83286f, com.serotonin.mango.view.ImageSet@776c32b1, com.serotonin.mango.view.ImageSet@33168a99, com.serotonin.mango.view.ImageSet@f9eaf37, com.serotonin.mango.view.ImageSet@40b99692, com.serotonin.mango.view.ImageSet@1718678e, com.serotonin.mango.view.ImageSet@cbf676d, com.serotonin.mango.view.ImageSet@57af93a5, com.serotonin.mango.view.ImageSet@57a5f00f, com.serotonin.mango.view.ImageSet@c12ef22, com.serotonin.mango.view.ImageSet@1e4971f9, com.serotonin.mango.view.ImageSet@4c91aae5, com.serotonin.mango.view.ImageSet@7eef6162, com.serotonin.mango.view.ImageSet@693ffe59, com.serotonin.mango.view.ImageSet@34b3b628, com.serotonin.mango.view.ImageSet@d06ebb9, com.serotonin.mango.view.ImageSet@5a7db39d, com.serotonin.mango.view.ImageSet@64b9040, com.serotonin.mango.view.ImageSet@509fddd, com.serotonin.mango.view.ImageSet@8c984fc, com.serotonin.mango.view.ImageSet@4f42b84f, com.serotonin.mango.view.ImageSet@62bd302e]
+   constants.Common.NEW_ID=-1
+   constants.DataSourceVO.Types.VMSTAT=17
+   constants.AuditEventType.TYPE_EVENT_HANDLER=6
+   DATAPOINTS_NAME_ID_MAPPING={}
+   constants.DataSourceVO.Types.RADIUINO=41
+   constants.DataSourceVO.Types.BACNET=10
+   constants.PublisherVO.Types.PACHUBE=2
+   constants.Permissions.DataPointAccessTypes.READ=1
+   org.directwebremoting.ContainerList=[org.directwebremoting.impl.DefaultContainer@c676b7b]
+   constants.EventType.EventSources.SCHEDULED=6
+   constants.DataTypes.BINARY=1
+   constants.SystemEventType.TYPE_SYSTEM_STARTUP=1
+   javax.servlet.ServletConfig=org.apache.catalina.core.StandardWrapperFacade@470dcb08
+   clientSideMessages={common.alarmLevel.lifeSafety=com.serotonin.web.i18n.LocalizableMessage@1c71626, common.disabled=com.serotonin.web.i18n.LocalizableMessage@be9bfeff, header.mute=com.serotonin.web.i18n.LocalizableMessage@43df3cba, header.unmute=com.serotonin.web.i18n.LocalizableMessage@d635aa93, common.alarmLevel.critical=com.serotonin.web.i18n.LocalizableMessage@2b076d7, js.help.loading=com.serotonin.web.i18n.LocalizableMessage@10dfaff4, js.help.related=com.serotonin.web.i18n.LocalizableMessage@3dce6ae3, js.disabledCed=com.serotonin.web.i18n.LocalizableMessage@5d4e0ee1, js.help.lastUpdated=com.serotonin.web.i18n.LocalizableMessage@729293fd, js.email.addAddress=com.serotonin.web.i18n.LocalizableMessage@cbb9a38a, js.disabledSe=com.serotonin.web.i18n.LocalizableMessage@97a7b393, scheduledEvents.se=com.serotonin.web.i18n.LocalizableMessage@b5cc6cfa, js.help.error=com.serotonin.web.i18n.LocalizableMessage@f876c0, js.email.addUser=com.serotonin.web.i18n.LocalizableMessage@49cc77b5, js.email.addMailingList=com.serotonin.web.i18n.LocalizableMessage@6fa4a69f, js.email.noRecipForEmail=com.serotonin.web.i18n.LocalizableMessage@4b694592, common.access.set=com.serotonin.web.i18n.LocalizableMessage@a3e5309b, common.access.read=com.serotonin.web.i18n.LocalizableMessage@d8bff83d, common.sendTestEmail=com.serotonin.web.i18n.LocalizableMessage@8fd89c9f, pointLinks.pointLink=com.serotonin.web.i18n.LocalizableMessage@2c6dd5e5, js.disabledPointLink=com.serotonin.web.i18n.LocalizableMessage@25407509, compoundDetectors.compoundEventDetector=com.serotonin.web.i18n.LocalizableMessage@51020f89, common.disabledToggle=com.serotonin.web.i18n.LocalizableMessage@d7f89333, common.alarmLevel.none=com.serotonin.web.i18n.LocalizableMessage@223c1a70, common.administrator=com.serotonin.web.i18n.LocalizableMessage@a467f3ea, common.enabledToggle=com.serotonin.web.i18n.LocalizableMessage@ea5c2f12, common.alarmLevel.urgent=com.serotonin.web.i18n.LocalizableMessage@8fa9c879, common.minimize=com.serotonin.web.i18n.LocalizableMessage@5d740b21, js.email.noRecipients=com.serotonin.web.i18n.LocalizableMessage@d78563d2, common.user=com.serotonin.web.i18n.LocalizableMessage@8a9479ce, events.silence=com.serotonin.web.i18n.LocalizableMessage@8376c0ac, js.email.testSent=com.serotonin.web.i18n.LocalizableMessage@f59d9881, common.maximize=com.serotonin.web.i18n.LocalizableMessage@c752a74f, events.unsilence=com.serotonin.web.i18n.LocalizableMessage@29ad6533, common.alarmLevel.info=com.serotonin.web.i18n.LocalizableMessage@2239cfe6}
+   constants.DataSourceVO.Types.EBI25=16
+   constants.SystemEventType.TYPE_SET_POINT_HANDLER_FAILURE=7
+   constants.EventType.EventSources.AUDIT=8
+   constants.DataSourceVO.Types.OPEN_V_4_J=19
+   org.apache.jasper.compiler.ELInterpreter=org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@65ce40e6
+   constants.Permissions.DataPointAccessTypes.ADMIN=4
+   constants.DataSourceVO.Types.DR_STORAGE_HT5B=38
+   javax.websocket.server.ServerContainer=org.apache.tomcat.websocket.server.WsServerContainer@3282ab53
+   org.directwebremoting.impl.ServerContext=org.directwebremoting.impl.DefaultServerContext@17045c04
+   AdminServletAxisEngine=org.apache.axis.server.AxisServer@766a10d3
+   constants.DataSourceVO.Types.MODBUS_SERIAL=2
+   constants.DataSourceVO.Types.POP3=12
+   org.apache.tomcat.JarScanner=org.apache.tomcat.util.scan.StandardJarScanner@3ef89067
+   constants.DataSourceVO.Types.VICONICS=18
+   FREEMARKER_CONFIG=freemarker.template.Configuration@29262e2e
+   constants.DataSourceVO.Types.SQL=6
+   constants.DataSourceVO.Types.MODBUS_IP=3
+   constants.AuditEventType.TYPE_SCHEDULED_EVENT=5
+   constants.SystemEventType.TYPE_SYSTEM_SHUTDOWN=2
+   constants.DataSourceVO.Types.ASCII_SERIAL=34
+   constants.DataSourceVO.Types.HTTP_RECEIVER=7
+   constants.DataSourceVO.Types.DNP3_IP=21
+   BACKGROUND_PROCESSING=com.serotonin.mango.rt.maint.BackgroundProcessing@ed9c06a
+   constants.EventType.EventSources.COMPOUND=5
+   constants.DataSourceVO.Types.VIRTUAL=1
+   org.apache.jasper.runtime.JspApplicationContextImpl=org.apache.jasper.runtime.JspApplicationContextImpl@3b8859c9
+   javax.servlet.context.tempdir=C:\Program Files\ScadaBR\tomcat\work\Catalina\localhost\ScadaBR
+   constants.DataSourceVO.Types.META=9
+   constants.DataSourceVO.Types.INTERNAL=27
+   org.apache.tomcat.InstanceManager=org.apache.catalina.core.DefaultInstanceManager@41099d77
+   constants.DataSourceVO.Types.DNP3_SERIAL=22
+   org.directwebremoting.Container=org.directwebremoting.impl.DefaultContainer@c676b7b
+   org.apache.jasper.compiler.TldCache=org.apache.jasper.compiler.TldCache@59469c26
+   DATABASE_ACCESS=com.serotonin.mango.db.DerbyAccess@195cddf4
+   constants.DataSourceVO.Types.IEC101_ETHERNET=36
+   constants.SystemEventType.TYPE_PROCESS_FAILURE=10
+   constants.SystemEventType.TYPE_MAX_ALARM_LEVEL_CHANGED=3
+   constants.DataSourceVO.Types.M_BUS=20
+   constants.DataSourceVO.Types.IEC101_SERIAL=35
+ 
+ERROR 2022-10-29 15:01:41,194 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:535)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:463)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.WebContextFilter.doFilter(WebContextFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.LoggedInFilter.doFilter(LoggedInFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at com.serotonin.mango.web.mvc.controller.ViewEditController.onSubmit(ViewEditController.java:191)
+	at org.springframework.web.servlet.mvc.SimpleFormController.processFormSubmission(SimpleFormController.java:267)
+	at org.springframework.web.servlet.mvc.AbstractFormController.handleRequestInternal(AbstractFormController.java:265)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	... 34 more
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/error.jsp
+
+REQUEST PARAMETERS
+   viewId=6
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   content-length=521
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   origin=http://localhost:8080
+   content-type=multipart/form-data; boundary=----WebKitFormBoundaryOIlBEJiGABzC0nAM
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.102 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=JSESSIONID=611668918CADAA0BB68E40C8F2168B17; theme=green.css
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/view_edit.shtm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/view_edit.shtm
+   javax.servlet.forward.query_string=viewId=6
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@367e0768
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   availableLanguages=[com.serotonin.db.KeyValuePair@763e043a, com.serotonin.db.KeyValuePair@4f24425a, com.serotonin.db.KeyValuePair@295d74bf, com.serotonin.db.KeyValuePair@6f5e73bb, com.serotonin.db.KeyValuePair@69c7b5be, com.serotonin.db.KeyValuePair@41c0c4e, com.serotonin.db.KeyValuePair@462678fe, com.serotonin.db.KeyValuePair@5a79082a, com.serotonin.db.KeyValuePair@ec72c9e, com.serotonin.db.KeyValuePair@6a5d3f74]
+   sessionUser=com.serotonin.mango.vo.User@20
+   javax.servlet.error.message=
+   javax.servlet.error.servlet_name=springDispatcher
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@68695466
+   NEW_ID=-1
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/view_edit.shtm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/view_edit.shtm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@4f6e9be5
+   javax.servlet.error.exception=org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667066368754
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@1f495b49, com.serotonin.mango.web.dwr.longPoll.LongPollData@de328d2, com.serotonin.mango.web.dwr.longPoll.LongPollData@3af7562c]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+
+
+CONTEXT ATTRIBUTES
+   RUNTIME_MANAGER=com.serotonin.mango.rt.RuntimeManager@2cdac5a9
+   constants.EventType.EventSources.SYSTEM=4
+   org.apache.catalina.resources=org.apache.catalina.webresources.StandardRoot@5d0953f4
+   constants.PublisherVO.Types.HTTP_SENDER=1
+   USER_CACHE=br.org.scadabr.vo.userCache.UserCache@63b4e4d2
+   DwrContainer=org.directwebremoting.impl.DefaultContainer@c676b7b
+   constants.DataSourceVO.Types.OPC=32
+   constants.SystemEventType.TYPE_POINT_LINK_FAILURE=9
+   constants.EventType.EventSources.PUBLISHER=7
+   constants.SystemEventType.TYPE_USER_LOGIN=4
+   constants.DataSourceVO.Types.JMX=26
+   constants.EventType.EventSources.DATA_POINT=1
+   DYNAMIC_IMAGES=[com.serotonin.mango.view.DynamicImage@3e8b6686, com.serotonin.mango.view.DynamicImage@4320a904, com.serotonin.mango.view.DynamicImage@19fde5b6, com.serotonin.mango.view.DynamicImage@6ad600a8]
+   constants.UserComment.TYPE_EVENT=1
+   AxisEngine=org.apache.axis.server.AxisServer@766a10d3
+   constants.DataSourceVO.Types.ONE_WIRE=8
+   org.apache.catalina.webappVersion=
+   javax.servlet.http.HttpServlet=org.directwebremoting.servlet.DwrServlet@61eb6b19
+   constants.DataSourceVO.Types.PACHUBE=23
+   constants.DataTypes.ALPHANUMERIC=4
+   constants.Permissions.DataPointAccessTypes.SET=2
+   constants.DataSourceVO.Types.SNMP=5
+   constants.EventType.EventSources.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_SOURCE=1
+   constants.SystemEventType.TYPE_EMAIL_SEND_FAILURE=8
+   constants.Permissions.DataPointAccessTypes.NONE=0
+   constants.DataSourceVO.Types.NODAVE_S7=37
+   HTTP_RECEIVER_MULTICASTER=com.serotonin.mango.rt.dataSource.http.HttpReceiverMulticaster@25bd9182
+   constants.DataSourceVO.Types.ALPHA_2=39
+   constants.DataSourceVO.Types.HTTP_RETRIEVER=11
+   constants.DataSourceVO.Types.PERSISTENT=24
+   constants.PublisherVO.Types.PERSISTENT=3
+   constants.DataSourceVO.Types.NMEA=13
+   constants.DataSourceVO.Types.HTTP_IMAGE=15
+   EVENT_MANAGER=com.serotonin.mango.rt.EventManager@12b61afd
+   org.springframework.web.context.WebApplicationContext.ROOT=org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8: display name [Root WebApplicationContext]; startup date [Sat Oct 29 14:42:43 BRT 2022]; root of context hierarchy
+   org.apache.jasper.compiler.StringInterpreter=org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@34fc7cf0
+   constants.AuditEventType.TYPE_POINT_EVENT_DETECTOR=3
+   constants.SystemEventType.TYPE_COMPOUND_DETECTOR_FAILURE=6
+   org.directwebremoting.WebContextFactory$WebContextBuilder=org.directwebremoting.impl.DefaultWebContextBuilder@ef57ad5
+   constants.DataTypes.MULTISTATE=2
+   constants.AuditEventType.TYPE_POINT_LINK=7
+   org.apache.catalina.jsp_classpath=/C:/Program Files/ScadaBR/tomcat/lib/;/C:/Program Files/ScadaBR/tomcat/lib/annotations-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ant.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ha.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ssi.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-storeconfig.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-tribes.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina.jar;/C:/Program Files/ScadaBR/tomcat/lib/ecj-4.20.jar;/C:/Program Files/ScadaBR/tomcat/lib/el-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper-el.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper.jar;/C:/Program Files/ScadaBR/tomcat/lib/jaspic-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jsp-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/servlet-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-coyote.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-dbcp.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-cs.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-de.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-es.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-fr.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ja.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ko.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-pt-BR.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ru.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-zh-CN.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jdbc.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jni.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util-scan.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-websocket.jar;/C:/Program Files/ScadaBR/tomcat/lib/websocket-api.jar;C:\Program Files\ScadaBR\tomcat\bin\bootstrap.jar;C:\Program Files\ScadaBR\tomcat\bin\tomcat-juli.jar
+   constants.UserComment.TYPE_POINT=2
+   constants.EventType.EventSources.MAINTENANCE=9
+   constants.DataTypes.IMAGE=5
+   constants.DataSourceVO.Types.ASCII_FILE=33
+   org.springframework.web.servlet.FrameworkServlet.CONTEXT.springDispatcher=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   constants.DataSourceVO.Types.GALIL=14
+   constants.Permissions.DataPointAccessTypes.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_POINT=2
+   constants.DataTypes.NUMERIC=3
+   constants.AuditEventType.TYPE_COMPOUND_EVENT_DETECTOR=4
+   IMAGE_SETS=[com.serotonin.mango.view.ImageSet@2c222b7f, com.serotonin.mango.view.ImageSet@447d9765, com.serotonin.mango.view.ImageSet@b2897c2, com.serotonin.mango.view.ImageSet@38c31476, com.serotonin.mango.view.ImageSet@2179e854, com.serotonin.mango.view.ImageSet@70f06607, com.serotonin.mango.view.ImageSet@3ef1300f, com.serotonin.mango.view.ImageSet@499bf146, com.serotonin.mango.view.ImageSet@791d7080, com.serotonin.mango.view.ImageSet@3c68c15b, com.serotonin.mango.view.ImageSet@5211e7f1, com.serotonin.mango.view.ImageSet@2df4ea64, com.serotonin.mango.view.ImageSet@2bd2e790, com.serotonin.mango.view.ImageSet@d1712fc, com.serotonin.mango.view.ImageSet@1bc29c83, com.serotonin.mango.view.ImageSet@1d4a711d, com.serotonin.mango.view.ImageSet@749eea32, com.serotonin.mango.view.ImageSet@78835fad, com.serotonin.mango.view.ImageSet@e870496, com.serotonin.mango.view.ImageSet@5a94df26, com.serotonin.mango.view.ImageSet@5382f281, com.serotonin.mango.view.ImageSet@3acbae12, com.serotonin.mango.view.ImageSet@395c526d, com.serotonin.mango.view.ImageSet@3ed56ace, com.serotonin.mango.view.ImageSet@642d40c5, com.serotonin.mango.view.ImageSet@40c33a88, com.serotonin.mango.view.ImageSet@25817fd3, com.serotonin.mango.view.ImageSet@2e3accaf, com.serotonin.mango.view.ImageSet@457950cd, com.serotonin.mango.view.ImageSet@31060c22, com.serotonin.mango.view.ImageSet@d97e6c5, com.serotonin.mango.view.ImageSet@4c3c0ecb, com.serotonin.mango.view.ImageSet@ba32769, com.serotonin.mango.view.ImageSet@1cd345c1, com.serotonin.mango.view.ImageSet@10d08337, com.serotonin.mango.view.ImageSet@224262b4, com.serotonin.mango.view.ImageSet@2381d248, com.serotonin.mango.view.ImageSet@629e401e, com.serotonin.mango.view.ImageSet@2fa5309a, com.serotonin.mango.view.ImageSet@497a2, com.serotonin.mango.view.ImageSet@6f1ccdbe, com.serotonin.mango.view.ImageSet@3a83286f, com.serotonin.mango.view.ImageSet@776c32b1, com.serotonin.mango.view.ImageSet@33168a99, com.serotonin.mango.view.ImageSet@f9eaf37, com.serotonin.mango.view.ImageSet@40b99692, com.serotonin.mango.view.ImageSet@1718678e, com.serotonin.mango.view.ImageSet@cbf676d, com.serotonin.mango.view.ImageSet@57af93a5, com.serotonin.mango.view.ImageSet@57a5f00f, com.serotonin.mango.view.ImageSet@c12ef22, com.serotonin.mango.view.ImageSet@1e4971f9, com.serotonin.mango.view.ImageSet@4c91aae5, com.serotonin.mango.view.ImageSet@7eef6162, com.serotonin.mango.view.ImageSet@693ffe59, com.serotonin.mango.view.ImageSet@34b3b628, com.serotonin.mango.view.ImageSet@d06ebb9, com.serotonin.mango.view.ImageSet@5a7db39d, com.serotonin.mango.view.ImageSet@64b9040, com.serotonin.mango.view.ImageSet@509fddd, com.serotonin.mango.view.ImageSet@8c984fc, com.serotonin.mango.view.ImageSet@4f42b84f, com.serotonin.mango.view.ImageSet@62bd302e]
+   constants.Common.NEW_ID=-1
+   constants.DataSourceVO.Types.VMSTAT=17
+   constants.AuditEventType.TYPE_EVENT_HANDLER=6
+   DATAPOINTS_NAME_ID_MAPPING={}
+   constants.DataSourceVO.Types.RADIUINO=41
+   constants.DataSourceVO.Types.BACNET=10
+   constants.PublisherVO.Types.PACHUBE=2
+   constants.Permissions.DataPointAccessTypes.READ=1
+   org.directwebremoting.ContainerList=[org.directwebremoting.impl.DefaultContainer@c676b7b]
+   constants.EventType.EventSources.SCHEDULED=6
+   constants.DataTypes.BINARY=1
+   constants.SystemEventType.TYPE_SYSTEM_STARTUP=1
+   javax.servlet.ServletConfig=org.apache.catalina.core.StandardWrapperFacade@470dcb08
+   clientSideMessages={common.alarmLevel.lifeSafety=com.serotonin.web.i18n.LocalizableMessage@1c71626, common.disabled=com.serotonin.web.i18n.LocalizableMessage@be9bfeff, header.mute=com.serotonin.web.i18n.LocalizableMessage@43df3cba, header.unmute=com.serotonin.web.i18n.LocalizableMessage@d635aa93, common.alarmLevel.critical=com.serotonin.web.i18n.LocalizableMessage@2b076d7, js.help.loading=com.serotonin.web.i18n.LocalizableMessage@10dfaff4, js.help.related=com.serotonin.web.i18n.LocalizableMessage@3dce6ae3, js.disabledCed=com.serotonin.web.i18n.LocalizableMessage@5d4e0ee1, js.help.lastUpdated=com.serotonin.web.i18n.LocalizableMessage@729293fd, js.email.addAddress=com.serotonin.web.i18n.LocalizableMessage@cbb9a38a, js.disabledSe=com.serotonin.web.i18n.LocalizableMessage@97a7b393, scheduledEvents.se=com.serotonin.web.i18n.LocalizableMessage@b5cc6cfa, js.help.error=com.serotonin.web.i18n.LocalizableMessage@f876c0, js.email.addUser=com.serotonin.web.i18n.LocalizableMessage@49cc77b5, js.email.addMailingList=com.serotonin.web.i18n.LocalizableMessage@6fa4a69f, js.email.noRecipForEmail=com.serotonin.web.i18n.LocalizableMessage@4b694592, common.access.set=com.serotonin.web.i18n.LocalizableMessage@a3e5309b, common.access.read=com.serotonin.web.i18n.LocalizableMessage@d8bff83d, common.sendTestEmail=com.serotonin.web.i18n.LocalizableMessage@8fd89c9f, pointLinks.pointLink=com.serotonin.web.i18n.LocalizableMessage@2c6dd5e5, js.disabledPointLink=com.serotonin.web.i18n.LocalizableMessage@25407509, compoundDetectors.compoundEventDetector=com.serotonin.web.i18n.LocalizableMessage@51020f89, common.disabledToggle=com.serotonin.web.i18n.LocalizableMessage@d7f89333, common.alarmLevel.none=com.serotonin.web.i18n.LocalizableMessage@223c1a70, common.administrator=com.serotonin.web.i18n.LocalizableMessage@a467f3ea, common.enabledToggle=com.serotonin.web.i18n.LocalizableMessage@ea5c2f12, common.alarmLevel.urgent=com.serotonin.web.i18n.LocalizableMessage@8fa9c879, common.minimize=com.serotonin.web.i18n.LocalizableMessage@5d740b21, js.email.noRecipients=com.serotonin.web.i18n.LocalizableMessage@d78563d2, common.user=com.serotonin.web.i18n.LocalizableMessage@8a9479ce, events.silence=com.serotonin.web.i18n.LocalizableMessage@8376c0ac, js.email.testSent=com.serotonin.web.i18n.LocalizableMessage@f59d9881, common.maximize=com.serotonin.web.i18n.LocalizableMessage@c752a74f, events.unsilence=com.serotonin.web.i18n.LocalizableMessage@29ad6533, common.alarmLevel.info=com.serotonin.web.i18n.LocalizableMessage@2239cfe6}
+   constants.DataSourceVO.Types.EBI25=16
+   constants.SystemEventType.TYPE_SET_POINT_HANDLER_FAILURE=7
+   constants.EventType.EventSources.AUDIT=8
+   constants.DataSourceVO.Types.OPEN_V_4_J=19
+   org.apache.jasper.compiler.ELInterpreter=org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@65ce40e6
+   constants.Permissions.DataPointAccessTypes.ADMIN=4
+   constants.DataSourceVO.Types.DR_STORAGE_HT5B=38
+   javax.websocket.server.ServerContainer=org.apache.tomcat.websocket.server.WsServerContainer@3282ab53
+   org.directwebremoting.impl.ServerContext=org.directwebremoting.impl.DefaultServerContext@17045c04
+   AdminServletAxisEngine=org.apache.axis.server.AxisServer@766a10d3
+   constants.DataSourceVO.Types.MODBUS_SERIAL=2
+   constants.DataSourceVO.Types.POP3=12
+   org.apache.tomcat.JarScanner=org.apache.tomcat.util.scan.StandardJarScanner@3ef89067
+   constants.DataSourceVO.Types.VICONICS=18
+   FREEMARKER_CONFIG=freemarker.template.Configuration@29262e2e
+   constants.DataSourceVO.Types.SQL=6
+   constants.DataSourceVO.Types.MODBUS_IP=3
+   constants.AuditEventType.TYPE_SCHEDULED_EVENT=5
+   constants.SystemEventType.TYPE_SYSTEM_SHUTDOWN=2
+   constants.DataSourceVO.Types.ASCII_SERIAL=34
+   constants.DataSourceVO.Types.HTTP_RECEIVER=7
+   constants.DataSourceVO.Types.DNP3_IP=21
+   BACKGROUND_PROCESSING=com.serotonin.mango.rt.maint.BackgroundProcessing@ed9c06a
+   constants.EventType.EventSources.COMPOUND=5
+   constants.DataSourceVO.Types.VIRTUAL=1
+   org.apache.jasper.runtime.JspApplicationContextImpl=org.apache.jasper.runtime.JspApplicationContextImpl@3b8859c9
+   javax.servlet.context.tempdir=C:\Program Files\ScadaBR\tomcat\work\Catalina\localhost\ScadaBR
+   constants.DataSourceVO.Types.META=9
+   constants.DataSourceVO.Types.INTERNAL=27
+   org.apache.tomcat.InstanceManager=org.apache.catalina.core.DefaultInstanceManager@41099d77
+   constants.DataSourceVO.Types.DNP3_SERIAL=22
+   org.directwebremoting.Container=org.directwebremoting.impl.DefaultContainer@c676b7b
+   org.apache.jasper.compiler.TldCache=org.apache.jasper.compiler.TldCache@59469c26
+   DATABASE_ACCESS=com.serotonin.mango.db.DerbyAccess@195cddf4
+   constants.DataSourceVO.Types.IEC101_ETHERNET=36
+   constants.SystemEventType.TYPE_PROCESS_FAILURE=10
+   constants.SystemEventType.TYPE_MAX_ALARM_LEVEL_CHANGED=3
+   constants.DataSourceVO.Types.M_BUS=20
+   constants.DataSourceVO.Types.IEC101_SERIAL=35
+ 
+ERROR 2022-10-29 15:26:11,506 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:535)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:463)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.WebContextFilter.doFilter(WebContextFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.LoggedInFilter.doFilter(LoggedInFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at com.serotonin.mango.web.mvc.controller.ViewEditController.onSubmit(ViewEditController.java:191)
+	at org.springframework.web.servlet.mvc.SimpleFormController.processFormSubmission(SimpleFormController.java:267)
+	at org.springframework.web.servlet.mvc.AbstractFormController.handleRequestInternal(AbstractFormController.java:265)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	... 34 more
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/error.jsp
+
+REQUEST PARAMETERS
+   viewId=6
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   content-length=521
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   origin=http://localhost:8080
+   content-type=multipart/form-data; boundary=----WebKitFormBoundary7yAJuhGdLvA67tNX
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.102 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=JSESSIONID=611668918CADAA0BB68E40C8F2168B17; theme=green.css
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/view_edit.shtm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/view_edit.shtm
+   javax.servlet.forward.query_string=viewId=6
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@6e18f39
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   availableLanguages=[com.serotonin.db.KeyValuePair@395453c6, com.serotonin.db.KeyValuePair@49053740, com.serotonin.db.KeyValuePair@1865c458, com.serotonin.db.KeyValuePair@12f7082a, com.serotonin.db.KeyValuePair@9a6b3d1, com.serotonin.db.KeyValuePair@69793a92, com.serotonin.db.KeyValuePair@5f8874e1, com.serotonin.db.KeyValuePair@75148162, com.serotonin.db.KeyValuePair@49109c2a, com.serotonin.db.KeyValuePair@691d8230]
+   sessionUser=com.serotonin.mango.vo.User@20
+   javax.servlet.error.message=
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@68695466
+   NEW_ID=-1
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/view_edit.shtm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/view_edit.shtm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@4f6e9be5
+   javax.servlet.error.exception=org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667067908013
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@75aedc8e, com.serotonin.mango.web.dwr.longPoll.LongPollData@24e04cc8, com.serotonin.mango.web.dwr.longPoll.LongPollData@695c65b2]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+
+
+CONTEXT ATTRIBUTES
+   RUNTIME_MANAGER=com.serotonin.mango.rt.RuntimeManager@2cdac5a9
+   constants.EventType.EventSources.SYSTEM=4
+   org.apache.catalina.resources=org.apache.catalina.webresources.StandardRoot@5d0953f4
+   constants.PublisherVO.Types.HTTP_SENDER=1
+   USER_CACHE=br.org.scadabr.vo.userCache.UserCache@63b4e4d2
+   DwrContainer=org.directwebremoting.impl.DefaultContainer@c676b7b
+   constants.DataSourceVO.Types.OPC=32
+   constants.SystemEventType.TYPE_POINT_LINK_FAILURE=9
+   constants.EventType.EventSources.PUBLISHER=7
+   constants.SystemEventType.TYPE_USER_LOGIN=4
+   constants.DataSourceVO.Types.JMX=26
+   constants.EventType.EventSources.DATA_POINT=1
+   DYNAMIC_IMAGES=[com.serotonin.mango.view.DynamicImage@3e8b6686, com.serotonin.mango.view.DynamicImage@4320a904, com.serotonin.mango.view.DynamicImage@19fde5b6, com.serotonin.mango.view.DynamicImage@6ad600a8]
+   constants.UserComment.TYPE_EVENT=1
+   AxisEngine=org.apache.axis.server.AxisServer@766a10d3
+   constants.DataSourceVO.Types.ONE_WIRE=8
+   org.apache.catalina.webappVersion=
+   javax.servlet.http.HttpServlet=org.directwebremoting.servlet.DwrServlet@61eb6b19
+   constants.DataSourceVO.Types.PACHUBE=23
+   constants.DataTypes.ALPHANUMERIC=4
+   constants.Permissions.DataPointAccessTypes.SET=2
+   constants.DataSourceVO.Types.SNMP=5
+   constants.EventType.EventSources.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_SOURCE=1
+   constants.SystemEventType.TYPE_EMAIL_SEND_FAILURE=8
+   constants.Permissions.DataPointAccessTypes.NONE=0
+   constants.DataSourceVO.Types.NODAVE_S7=37
+   HTTP_RECEIVER_MULTICASTER=com.serotonin.mango.rt.dataSource.http.HttpReceiverMulticaster@25bd9182
+   constants.DataSourceVO.Types.ALPHA_2=39
+   constants.DataSourceVO.Types.HTTP_RETRIEVER=11
+   constants.DataSourceVO.Types.PERSISTENT=24
+   constants.PublisherVO.Types.PERSISTENT=3
+   constants.DataSourceVO.Types.NMEA=13
+   constants.DataSourceVO.Types.HTTP_IMAGE=15
+   EVENT_MANAGER=com.serotonin.mango.rt.EventManager@12b61afd
+   org.springframework.web.context.WebApplicationContext.ROOT=org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8: display name [Root WebApplicationContext]; startup date [Sat Oct 29 14:42:43 BRT 2022]; root of context hierarchy
+   org.apache.jasper.compiler.StringInterpreter=org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@34fc7cf0
+   constants.AuditEventType.TYPE_POINT_EVENT_DETECTOR=3
+   constants.SystemEventType.TYPE_COMPOUND_DETECTOR_FAILURE=6
+   org.directwebremoting.WebContextFactory$WebContextBuilder=org.directwebremoting.impl.DefaultWebContextBuilder@ef57ad5
+   constants.DataTypes.MULTISTATE=2
+   constants.AuditEventType.TYPE_POINT_LINK=7
+   org.apache.catalina.jsp_classpath=/C:/Program Files/ScadaBR/tomcat/lib/;/C:/Program Files/ScadaBR/tomcat/lib/annotations-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ant.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ha.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ssi.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-storeconfig.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-tribes.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina.jar;/C:/Program Files/ScadaBR/tomcat/lib/ecj-4.20.jar;/C:/Program Files/ScadaBR/tomcat/lib/el-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper-el.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper.jar;/C:/Program Files/ScadaBR/tomcat/lib/jaspic-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jsp-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/servlet-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-coyote.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-dbcp.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-cs.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-de.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-es.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-fr.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ja.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ko.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-pt-BR.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ru.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-zh-CN.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jdbc.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jni.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util-scan.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-websocket.jar;/C:/Program Files/ScadaBR/tomcat/lib/websocket-api.jar;C:\Program Files\ScadaBR\tomcat\bin\bootstrap.jar;C:\Program Files\ScadaBR\tomcat\bin\tomcat-juli.jar
+   constants.UserComment.TYPE_POINT=2
+   constants.EventType.EventSources.MAINTENANCE=9
+   constants.DataTypes.IMAGE=5
+   constants.DataSourceVO.Types.ASCII_FILE=33
+   org.springframework.web.servlet.FrameworkServlet.CONTEXT.springDispatcher=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   constants.DataSourceVO.Types.GALIL=14
+   constants.Permissions.DataPointAccessTypes.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_POINT=2
+   constants.DataTypes.NUMERIC=3
+   constants.AuditEventType.TYPE_COMPOUND_EVENT_DETECTOR=4
+   IMAGE_SETS=[com.serotonin.mango.view.ImageSet@2c222b7f, com.serotonin.mango.view.ImageSet@447d9765, com.serotonin.mango.view.ImageSet@b2897c2, com.serotonin.mango.view.ImageSet@38c31476, com.serotonin.mango.view.ImageSet@2179e854, com.serotonin.mango.view.ImageSet@70f06607, com.serotonin.mango.view.ImageSet@3ef1300f, com.serotonin.mango.view.ImageSet@499bf146, com.serotonin.mango.view.ImageSet@791d7080, com.serotonin.mango.view.ImageSet@3c68c15b, com.serotonin.mango.view.ImageSet@5211e7f1, com.serotonin.mango.view.ImageSet@2df4ea64, com.serotonin.mango.view.ImageSet@2bd2e790, com.serotonin.mango.view.ImageSet@d1712fc, com.serotonin.mango.view.ImageSet@1bc29c83, com.serotonin.mango.view.ImageSet@1d4a711d, com.serotonin.mango.view.ImageSet@749eea32, com.serotonin.mango.view.ImageSet@78835fad, com.serotonin.mango.view.ImageSet@e870496, com.serotonin.mango.view.ImageSet@5a94df26, com.serotonin.mango.view.ImageSet@5382f281, com.serotonin.mango.view.ImageSet@3acbae12, com.serotonin.mango.view.ImageSet@395c526d, com.serotonin.mango.view.ImageSet@3ed56ace, com.serotonin.mango.view.ImageSet@642d40c5, com.serotonin.mango.view.ImageSet@40c33a88, com.serotonin.mango.view.ImageSet@25817fd3, com.serotonin.mango.view.ImageSet@2e3accaf, com.serotonin.mango.view.ImageSet@457950cd, com.serotonin.mango.view.ImageSet@31060c22, com.serotonin.mango.view.ImageSet@d97e6c5, com.serotonin.mango.view.ImageSet@4c3c0ecb, com.serotonin.mango.view.ImageSet@ba32769, com.serotonin.mango.view.ImageSet@1cd345c1, com.serotonin.mango.view.ImageSet@10d08337, com.serotonin.mango.view.ImageSet@224262b4, com.serotonin.mango.view.ImageSet@2381d248, com.serotonin.mango.view.ImageSet@629e401e, com.serotonin.mango.view.ImageSet@2fa5309a, com.serotonin.mango.view.ImageSet@497a2, com.serotonin.mango.view.ImageSet@6f1ccdbe, com.serotonin.mango.view.ImageSet@3a83286f, com.serotonin.mango.view.ImageSet@776c32b1, com.serotonin.mango.view.ImageSet@33168a99, com.serotonin.mango.view.ImageSet@f9eaf37, com.serotonin.mango.view.ImageSet@40b99692, com.serotonin.mango.view.ImageSet@1718678e, com.serotonin.mango.view.ImageSet@cbf676d, com.serotonin.mango.view.ImageSet@57af93a5, com.serotonin.mango.view.ImageSet@57a5f00f, com.serotonin.mango.view.ImageSet@c12ef22, com.serotonin.mango.view.ImageSet@1e4971f9, com.serotonin.mango.view.ImageSet@4c91aae5, com.serotonin.mango.view.ImageSet@7eef6162, com.serotonin.mango.view.ImageSet@693ffe59, com.serotonin.mango.view.ImageSet@34b3b628, com.serotonin.mango.view.ImageSet@d06ebb9, com.serotonin.mango.view.ImageSet@5a7db39d, com.serotonin.mango.view.ImageSet@64b9040, com.serotonin.mango.view.ImageSet@509fddd, com.serotonin.mango.view.ImageSet@8c984fc, com.serotonin.mango.view.ImageSet@4f42b84f, com.serotonin.mango.view.ImageSet@62bd302e]
+   constants.Common.NEW_ID=-1
+   constants.DataSourceVO.Types.VMSTAT=17
+   constants.AuditEventType.TYPE_EVENT_HANDLER=6
+   DATAPOINTS_NAME_ID_MAPPING={}
+   constants.DataSourceVO.Types.RADIUINO=41
+   constants.DataSourceVO.Types.BACNET=10
+   constants.PublisherVO.Types.PACHUBE=2
+   constants.Permissions.DataPointAccessTypes.READ=1
+   org.directwebremoting.ContainerList=[org.directwebremoting.impl.DefaultContainer@c676b7b]
+   constants.EventType.EventSources.SCHEDULED=6
+   constants.DataTypes.BINARY=1
+   constants.SystemEventType.TYPE_SYSTEM_STARTUP=1
+   javax.servlet.ServletConfig=org.apache.catalina.core.StandardWrapperFacade@470dcb08
+   clientSideMessages={common.alarmLevel.lifeSafety=com.serotonin.web.i18n.LocalizableMessage@1c71626, common.disabled=com.serotonin.web.i18n.LocalizableMessage@be9bfeff, header.mute=com.serotonin.web.i18n.LocalizableMessage@43df3cba, header.unmute=com.serotonin.web.i18n.LocalizableMessage@d635aa93, common.alarmLevel.critical=com.serotonin.web.i18n.LocalizableMessage@2b076d7, js.help.loading=com.serotonin.web.i18n.LocalizableMessage@10dfaff4, js.help.related=com.serotonin.web.i18n.LocalizableMessage@3dce6ae3, js.disabledCed=com.serotonin.web.i18n.LocalizableMessage@5d4e0ee1, js.help.lastUpdated=com.serotonin.web.i18n.LocalizableMessage@729293fd, js.email.addAddress=com.serotonin.web.i18n.LocalizableMessage@cbb9a38a, js.disabledSe=com.serotonin.web.i18n.LocalizableMessage@97a7b393, scheduledEvents.se=com.serotonin.web.i18n.LocalizableMessage@b5cc6cfa, js.help.error=com.serotonin.web.i18n.LocalizableMessage@f876c0, js.email.addUser=com.serotonin.web.i18n.LocalizableMessage@49cc77b5, js.email.addMailingList=com.serotonin.web.i18n.LocalizableMessage@6fa4a69f, js.email.noRecipForEmail=com.serotonin.web.i18n.LocalizableMessage@4b694592, common.access.set=com.serotonin.web.i18n.LocalizableMessage@a3e5309b, common.access.read=com.serotonin.web.i18n.LocalizableMessage@d8bff83d, common.sendTestEmail=com.serotonin.web.i18n.LocalizableMessage@8fd89c9f, pointLinks.pointLink=com.serotonin.web.i18n.LocalizableMessage@2c6dd5e5, js.disabledPointLink=com.serotonin.web.i18n.LocalizableMessage@25407509, compoundDetectors.compoundEventDetector=com.serotonin.web.i18n.LocalizableMessage@51020f89, common.disabledToggle=com.serotonin.web.i18n.LocalizableMessage@d7f89333, common.alarmLevel.none=com.serotonin.web.i18n.LocalizableMessage@223c1a70, common.administrator=com.serotonin.web.i18n.LocalizableMessage@a467f3ea, common.enabledToggle=com.serotonin.web.i18n.LocalizableMessage@ea5c2f12, common.alarmLevel.urgent=com.serotonin.web.i18n.LocalizableMessage@8fa9c879, common.minimize=com.serotonin.web.i18n.LocalizableMessage@5d740b21, js.email.noRecipients=com.serotonin.web.i18n.LocalizableMessage@d78563d2, common.user=com.serotonin.web.i18n.LocalizableMessage@8a9479ce, events.silence=com.serotonin.web.i18n.LocalizableMessage@8376c0ac, js.email.testSent=com.serotonin.web.i18n.LocalizableMessage@f59d9881, common.maximize=com.serotonin.web.i18n.LocalizableMessage@c752a74f, events.unsilence=com.serotonin.web.i18n.LocalizableMessage@29ad6533, common.alarmLevel.info=com.serotonin.web.i18n.LocalizableMessage@2239cfe6}
+   constants.DataSourceVO.Types.EBI25=16
+   constants.SystemEventType.TYPE_SET_POINT_HANDLER_FAILURE=7
+   constants.EventType.EventSources.AUDIT=8
+   constants.DataSourceVO.Types.OPEN_V_4_J=19
+   org.apache.jasper.compiler.ELInterpreter=org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@65ce40e6
+   constants.Permissions.DataPointAccessTypes.ADMIN=4
+   constants.DataSourceVO.Types.DR_STORAGE_HT5B=38
+   javax.websocket.server.ServerContainer=org.apache.tomcat.websocket.server.WsServerContainer@3282ab53
+   org.directwebremoting.impl.ServerContext=org.directwebremoting.impl.DefaultServerContext@17045c04
+   AdminServletAxisEngine=org.apache.axis.server.AxisServer@766a10d3
+   constants.DataSourceVO.Types.MODBUS_SERIAL=2
+   constants.DataSourceVO.Types.POP3=12
+   org.apache.tomcat.JarScanner=org.apache.tomcat.util.scan.StandardJarScanner@3ef89067
+   constants.DataSourceVO.Types.VICONICS=18
+   FREEMARKER_CONFIG=freemarker.template.Configuration@29262e2e
+   constants.DataSourceVO.Types.SQL=6
+   constants.DataSourceVO.Types.MODBUS_IP=3
+   constants.AuditEventType.TYPE_SCHEDULED_EVENT=5
+   constants.SystemEventType.TYPE_SYSTEM_SHUTDOWN=2
+   constants.DataSourceVO.Types.ASCII_SERIAL=34
+   constants.DataSourceVO.Types.HTTP_RECEIVER=7
+   constants.DataSourceVO.Types.DNP3_IP=21
+   BACKGROUND_PROCESSING=com.serotonin.mango.rt.maint.BackgroundProcessing@ed9c06a
+   constants.EventType.EventSources.COMPOUND=5
+   constants.DataSourceVO.Types.VIRTUAL=1
+   org.apache.jasper.runtime.JspApplicationContextImpl=org.apache.jasper.runtime.JspApplicationContextImpl@3b8859c9
+   javax.servlet.context.tempdir=C:\Program Files\ScadaBR\tomcat\work\Catalina\localhost\ScadaBR
+   constants.DataSourceVO.Types.META=9
+   constants.DataSourceVO.Types.INTERNAL=27
+   org.apache.tomcat.InstanceManager=org.apache.catalina.core.DefaultInstanceManager@41099d77
+   constants.DataSourceVO.Types.DNP3_SERIAL=22
+   org.directwebremoting.Container=org.directwebremoting.impl.DefaultContainer@c676b7b
+   org.apache.jasper.compiler.TldCache=org.apache.jasper.compiler.TldCache@59469c26
+   DATABASE_ACCESS=com.serotonin.mango.db.DerbyAccess@195cddf4
+   constants.DataSourceVO.Types.IEC101_ETHERNET=36
+   constants.SystemEventType.TYPE_PROCESS_FAILURE=10
+   constants.SystemEventType.TYPE_MAX_ALARM_LEVEL_CHANGED=3
+   constants.DataSourceVO.Types.M_BUS=20
+   constants.DataSourceVO.Types.IEC101_SERIAL=35
+ 
+WARN  2022-10-29 15:27:55,589 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught Error: Cannot read properties of null (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/dojo/dojo.js
+   Line: 96
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+ERROR 2022-10-29 15:28:56,075 (org.apache.taglibs.log.LoggerTag.doStartTag:97) - org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:535)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:463)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.WebContextFilter.doFilter(WebContextFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.mango.web.filter.LoggedInFilter.doFilter(LoggedInFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.serotonin.web.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+	at com.serotonin.mango.web.mvc.controller.ViewEditController.onSubmit(ViewEditController.java:191)
+	at org.springframework.web.servlet.mvc.SimpleFormController.processFormSubmission(SimpleFormController.java:267)
+	at org.springframework.web.servlet.mvc.AbstractFormController.handleRequestInternal(AbstractFormController.java:265)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:875)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:809)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:523)
+	... 34 more
+
+REQUEST URL
+http://localhost:8080/ScadaBR/exception/error.jsp
+
+REQUEST PARAMETERS
+   viewId=6
+
+
+REQUEST HEADERS
+   host=localhost:8080
+   connection=keep-alive
+   content-length=521
+   cache-control=max-age=0
+   sec-ch-ua="Not-A.Brand";v="99", "Opera GX";v="91", "Chromium";v="105"
+   sec-ch-ua-mobile=?0
+   sec-ch-ua-platform="Windows"
+   upgrade-insecure-requests=1
+   origin=http://localhost:8080
+   content-type=multipart/form-data; boundary=----WebKitFormBoundaryuGqAdPwayB1ZSoRI
+   user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 OPR/91.0.4516.102 (Edition std-1)
+   accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+   sec-fetch-site=same-origin
+   sec-fetch-mode=navigate
+   sec-fetch-user=?1
+   sec-fetch-dest=document
+   referer=http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6
+   accept-encoding=gzip, deflate, br
+   accept-language=pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+   cookie=JSESSIONID=611668918CADAA0BB68E40C8F2168B17; theme=green.css
+
+
+REQUEST ATTRIBUTES
+   javax.servlet.forward.request_uri=/ScadaBR/view_edit.shtm
+   javax.servlet.forward.context_path=/ScadaBR
+   javax.servlet.forward.servlet_path=/view_edit.shtm
+   javax.servlet.forward.query_string=viewId=6
+   javax.servlet.forward.mapping=org.apache.catalina.core.ApplicationMapping$MappingImpl@6face438
+   javax.servlet.error.status_code=500
+   org.springframework.web.servlet.DispatcherServlet.CONTEXT=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   availableLanguages=[com.serotonin.db.KeyValuePair@2ea5c0a9, com.serotonin.db.KeyValuePair@237fb082, com.serotonin.db.KeyValuePair@9a757d4, com.serotonin.db.KeyValuePair@1a2effc, com.serotonin.db.KeyValuePair@182c7e9, com.serotonin.db.KeyValuePair@5fa78cfb, com.serotonin.db.KeyValuePair@6c0d692c, com.serotonin.db.KeyValuePair@7ac6a65e, com.serotonin.db.KeyValuePair@6dec8b60, com.serotonin.db.KeyValuePair@e4f1272]
+   sessionUser=com.serotonin.mango.vo.User@20
+   javax.servlet.error.message=
+   javax.servlet.error.servlet_name=springDispatcher
+   org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   instanceDescription=Projeto Colheita Feliz
+   org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER=org.springframework.web.servlet.i18n.SessionLocaleResolver@68695466
+   NEW_ID=-1
+   org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping=/view_edit.shtm
+   lang=en
+   javax.servlet.error.request_uri=/ScadaBR/view_edit.shtm
+   org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER=org.springframework.web.servlet.theme.FixedThemeResolver@4f6e9be5
+   javax.servlet.error.exception=org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.serotonin.ShouldNeverHappenException: Invalid submit parameter
+
+
+SESSION ATTRIBUTES
+   sessionUser=com.serotonin.mango.vo.User@20
+   LONG_POLL_DATA_TIMEOUT=1667067908013
+   LONG_POLL_DATA=[com.serotonin.mango.web.dwr.longPoll.LongPollData@75aedc8e, com.serotonin.mango.web.dwr.longPoll.LongPollData@24e04cc8, com.serotonin.mango.web.dwr.longPoll.LongPollData@695c65b2, com.serotonin.mango.web.dwr.longPoll.LongPollData@98c5e9e]
+   org.springframework.web.servlet.i18n.SessionLocaleResolver.LOCALE=en
+
+
+CONTEXT ATTRIBUTES
+   RUNTIME_MANAGER=com.serotonin.mango.rt.RuntimeManager@2cdac5a9
+   constants.EventType.EventSources.SYSTEM=4
+   org.apache.catalina.resources=org.apache.catalina.webresources.StandardRoot@5d0953f4
+   constants.PublisherVO.Types.HTTP_SENDER=1
+   USER_CACHE=br.org.scadabr.vo.userCache.UserCache@63b4e4d2
+   DwrContainer=org.directwebremoting.impl.DefaultContainer@c676b7b
+   constants.DataSourceVO.Types.OPC=32
+   constants.SystemEventType.TYPE_POINT_LINK_FAILURE=9
+   constants.EventType.EventSources.PUBLISHER=7
+   constants.SystemEventType.TYPE_USER_LOGIN=4
+   constants.DataSourceVO.Types.JMX=26
+   constants.EventType.EventSources.DATA_POINT=1
+   DYNAMIC_IMAGES=[com.serotonin.mango.view.DynamicImage@3e8b6686, com.serotonin.mango.view.DynamicImage@4320a904, com.serotonin.mango.view.DynamicImage@19fde5b6, com.serotonin.mango.view.DynamicImage@6ad600a8]
+   constants.UserComment.TYPE_EVENT=1
+   AxisEngine=org.apache.axis.server.AxisServer@766a10d3
+   constants.DataSourceVO.Types.ONE_WIRE=8
+   org.apache.catalina.webappVersion=
+   javax.servlet.http.HttpServlet=org.directwebremoting.servlet.DwrServlet@61eb6b19
+   constants.DataSourceVO.Types.PACHUBE=23
+   constants.DataTypes.ALPHANUMERIC=4
+   constants.Permissions.DataPointAccessTypes.SET=2
+   constants.DataSourceVO.Types.SNMP=5
+   constants.EventType.EventSources.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_SOURCE=1
+   constants.SystemEventType.TYPE_EMAIL_SEND_FAILURE=8
+   constants.Permissions.DataPointAccessTypes.NONE=0
+   constants.DataSourceVO.Types.NODAVE_S7=37
+   HTTP_RECEIVER_MULTICASTER=com.serotonin.mango.rt.dataSource.http.HttpReceiverMulticaster@25bd9182
+   constants.DataSourceVO.Types.ALPHA_2=39
+   constants.DataSourceVO.Types.HTTP_RETRIEVER=11
+   constants.DataSourceVO.Types.PERSISTENT=24
+   constants.PublisherVO.Types.PERSISTENT=3
+   constants.DataSourceVO.Types.NMEA=13
+   constants.DataSourceVO.Types.HTTP_IMAGE=15
+   EVENT_MANAGER=com.serotonin.mango.rt.EventManager@12b61afd
+   org.springframework.web.context.WebApplicationContext.ROOT=org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8: display name [Root WebApplicationContext]; startup date [Sat Oct 29 14:42:43 BRT 2022]; root of context hierarchy
+   org.apache.jasper.compiler.StringInterpreter=org.apache.jasper.compiler.StringInterpreterFactory$DefaultStringInterpreter@34fc7cf0
+   constants.AuditEventType.TYPE_POINT_EVENT_DETECTOR=3
+   constants.SystemEventType.TYPE_COMPOUND_DETECTOR_FAILURE=6
+   org.directwebremoting.WebContextFactory$WebContextBuilder=org.directwebremoting.impl.DefaultWebContextBuilder@ef57ad5
+   constants.DataTypes.MULTISTATE=2
+   constants.AuditEventType.TYPE_POINT_LINK=7
+   org.apache.catalina.jsp_classpath=/C:/Program Files/ScadaBR/tomcat/lib/;/C:/Program Files/ScadaBR/tomcat/lib/annotations-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ant.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ha.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-ssi.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-storeconfig.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina-tribes.jar;/C:/Program Files/ScadaBR/tomcat/lib/catalina.jar;/C:/Program Files/ScadaBR/tomcat/lib/ecj-4.20.jar;/C:/Program Files/ScadaBR/tomcat/lib/el-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper-el.jar;/C:/Program Files/ScadaBR/tomcat/lib/jasper.jar;/C:/Program Files/ScadaBR/tomcat/lib/jaspic-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/jsp-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/servlet-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-api.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-coyote.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-dbcp.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-cs.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-de.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-es.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-fr.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ja.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ko.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-pt-BR.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-ru.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-i18n-zh-CN.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jdbc.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-jni.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util-scan.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-util.jar;/C:/Program Files/ScadaBR/tomcat/lib/tomcat-websocket.jar;/C:/Program Files/ScadaBR/tomcat/lib/websocket-api.jar;C:\Program Files\ScadaBR\tomcat\bin\bootstrap.jar;C:\Program Files\ScadaBR\tomcat\bin\tomcat-juli.jar
+   constants.UserComment.TYPE_POINT=2
+   constants.EventType.EventSources.MAINTENANCE=9
+   constants.DataTypes.IMAGE=5
+   constants.DataSourceVO.Types.ASCII_FILE=33
+   org.springframework.web.servlet.FrameworkServlet.CONTEXT.springDispatcher=org.springframework.web.context.support.XmlWebApplicationContext@56dc6b33: display name [WebApplicationContext for namespace 'springDispatcher-servlet']; startup date [Sat Oct 29 14:42:54 BRT 2022]; parent: org.springframework.web.context.support.XmlWebApplicationContext@48a3cac8
+   constants.DataSourceVO.Types.GALIL=14
+   constants.Permissions.DataPointAccessTypes.DATA_SOURCE=3
+   constants.AuditEventType.TYPE_DATA_POINT=2
+   constants.DataTypes.NUMERIC=3
+   constants.AuditEventType.TYPE_COMPOUND_EVENT_DETECTOR=4
+   IMAGE_SETS=[com.serotonin.mango.view.ImageSet@2c222b7f, com.serotonin.mango.view.ImageSet@447d9765, com.serotonin.mango.view.ImageSet@b2897c2, com.serotonin.mango.view.ImageSet@38c31476, com.serotonin.mango.view.ImageSet@2179e854, com.serotonin.mango.view.ImageSet@70f06607, com.serotonin.mango.view.ImageSet@3ef1300f, com.serotonin.mango.view.ImageSet@499bf146, com.serotonin.mango.view.ImageSet@791d7080, com.serotonin.mango.view.ImageSet@3c68c15b, com.serotonin.mango.view.ImageSet@5211e7f1, com.serotonin.mango.view.ImageSet@2df4ea64, com.serotonin.mango.view.ImageSet@2bd2e790, com.serotonin.mango.view.ImageSet@d1712fc, com.serotonin.mango.view.ImageSet@1bc29c83, com.serotonin.mango.view.ImageSet@1d4a711d, com.serotonin.mango.view.ImageSet@749eea32, com.serotonin.mango.view.ImageSet@78835fad, com.serotonin.mango.view.ImageSet@e870496, com.serotonin.mango.view.ImageSet@5a94df26, com.serotonin.mango.view.ImageSet@5382f281, com.serotonin.mango.view.ImageSet@3acbae12, com.serotonin.mango.view.ImageSet@395c526d, com.serotonin.mango.view.ImageSet@3ed56ace, com.serotonin.mango.view.ImageSet@642d40c5, com.serotonin.mango.view.ImageSet@40c33a88, com.serotonin.mango.view.ImageSet@25817fd3, com.serotonin.mango.view.ImageSet@2e3accaf, com.serotonin.mango.view.ImageSet@457950cd, com.serotonin.mango.view.ImageSet@31060c22, com.serotonin.mango.view.ImageSet@d97e6c5, com.serotonin.mango.view.ImageSet@4c3c0ecb, com.serotonin.mango.view.ImageSet@ba32769, com.serotonin.mango.view.ImageSet@1cd345c1, com.serotonin.mango.view.ImageSet@10d08337, com.serotonin.mango.view.ImageSet@224262b4, com.serotonin.mango.view.ImageSet@2381d248, com.serotonin.mango.view.ImageSet@629e401e, com.serotonin.mango.view.ImageSet@2fa5309a, com.serotonin.mango.view.ImageSet@497a2, com.serotonin.mango.view.ImageSet@6f1ccdbe, com.serotonin.mango.view.ImageSet@3a83286f, com.serotonin.mango.view.ImageSet@776c32b1, com.serotonin.mango.view.ImageSet@33168a99, com.serotonin.mango.view.ImageSet@f9eaf37, com.serotonin.mango.view.ImageSet@40b99692, com.serotonin.mango.view.ImageSet@1718678e, com.serotonin.mango.view.ImageSet@cbf676d, com.serotonin.mango.view.ImageSet@57af93a5, com.serotonin.mango.view.ImageSet@57a5f00f, com.serotonin.mango.view.ImageSet@c12ef22, com.serotonin.mango.view.ImageSet@1e4971f9, com.serotonin.mango.view.ImageSet@4c91aae5, com.serotonin.mango.view.ImageSet@7eef6162, com.serotonin.mango.view.ImageSet@693ffe59, com.serotonin.mango.view.ImageSet@34b3b628, com.serotonin.mango.view.ImageSet@d06ebb9, com.serotonin.mango.view.ImageSet@5a7db39d, com.serotonin.mango.view.ImageSet@64b9040, com.serotonin.mango.view.ImageSet@509fddd, com.serotonin.mango.view.ImageSet@8c984fc, com.serotonin.mango.view.ImageSet@4f42b84f, com.serotonin.mango.view.ImageSet@62bd302e]
+   constants.Common.NEW_ID=-1
+   constants.DataSourceVO.Types.VMSTAT=17
+   constants.AuditEventType.TYPE_EVENT_HANDLER=6
+   DATAPOINTS_NAME_ID_MAPPING={}
+   constants.DataSourceVO.Types.RADIUINO=41
+   constants.DataSourceVO.Types.BACNET=10
+   constants.PublisherVO.Types.PACHUBE=2
+   constants.Permissions.DataPointAccessTypes.READ=1
+   org.directwebremoting.ContainerList=[org.directwebremoting.impl.DefaultContainer@c676b7b]
+   constants.EventType.EventSources.SCHEDULED=6
+   constants.DataTypes.BINARY=1
+   constants.SystemEventType.TYPE_SYSTEM_STARTUP=1
+   javax.servlet.ServletConfig=org.apache.catalina.core.StandardWrapperFacade@470dcb08
+   clientSideMessages={common.alarmLevel.lifeSafety=com.serotonin.web.i18n.LocalizableMessage@1c71626, common.disabled=com.serotonin.web.i18n.LocalizableMessage@be9bfeff, header.mute=com.serotonin.web.i18n.LocalizableMessage@43df3cba, header.unmute=com.serotonin.web.i18n.LocalizableMessage@d635aa93, common.alarmLevel.critical=com.serotonin.web.i18n.LocalizableMessage@2b076d7, js.help.loading=com.serotonin.web.i18n.LocalizableMessage@10dfaff4, js.help.related=com.serotonin.web.i18n.LocalizableMessage@3dce6ae3, js.disabledCed=com.serotonin.web.i18n.LocalizableMessage@5d4e0ee1, js.help.lastUpdated=com.serotonin.web.i18n.LocalizableMessage@729293fd, js.email.addAddress=com.serotonin.web.i18n.LocalizableMessage@cbb9a38a, js.disabledSe=com.serotonin.web.i18n.LocalizableMessage@97a7b393, scheduledEvents.se=com.serotonin.web.i18n.LocalizableMessage@b5cc6cfa, js.help.error=com.serotonin.web.i18n.LocalizableMessage@f876c0, js.email.addUser=com.serotonin.web.i18n.LocalizableMessage@49cc77b5, js.email.addMailingList=com.serotonin.web.i18n.LocalizableMessage@6fa4a69f, js.email.noRecipForEmail=com.serotonin.web.i18n.LocalizableMessage@4b694592, common.access.set=com.serotonin.web.i18n.LocalizableMessage@a3e5309b, common.access.read=com.serotonin.web.i18n.LocalizableMessage@d8bff83d, common.sendTestEmail=com.serotonin.web.i18n.LocalizableMessage@8fd89c9f, pointLinks.pointLink=com.serotonin.web.i18n.LocalizableMessage@2c6dd5e5, js.disabledPointLink=com.serotonin.web.i18n.LocalizableMessage@25407509, compoundDetectors.compoundEventDetector=com.serotonin.web.i18n.LocalizableMessage@51020f89, common.disabledToggle=com.serotonin.web.i18n.LocalizableMessage@d7f89333, common.alarmLevel.none=com.serotonin.web.i18n.LocalizableMessage@223c1a70, common.administrator=com.serotonin.web.i18n.LocalizableMessage@a467f3ea, common.enabledToggle=com.serotonin.web.i18n.LocalizableMessage@ea5c2f12, common.alarmLevel.urgent=com.serotonin.web.i18n.LocalizableMessage@8fa9c879, common.minimize=com.serotonin.web.i18n.LocalizableMessage@5d740b21, js.email.noRecipients=com.serotonin.web.i18n.LocalizableMessage@d78563d2, common.user=com.serotonin.web.i18n.LocalizableMessage@8a9479ce, events.silence=com.serotonin.web.i18n.LocalizableMessage@8376c0ac, js.email.testSent=com.serotonin.web.i18n.LocalizableMessage@f59d9881, common.maximize=com.serotonin.web.i18n.LocalizableMessage@c752a74f, events.unsilence=com.serotonin.web.i18n.LocalizableMessage@29ad6533, common.alarmLevel.info=com.serotonin.web.i18n.LocalizableMessage@2239cfe6}
+   constants.DataSourceVO.Types.EBI25=16
+   constants.SystemEventType.TYPE_SET_POINT_HANDLER_FAILURE=7
+   constants.EventType.EventSources.AUDIT=8
+   constants.DataSourceVO.Types.OPEN_V_4_J=19
+   org.apache.jasper.compiler.ELInterpreter=org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@65ce40e6
+   constants.Permissions.DataPointAccessTypes.ADMIN=4
+   constants.DataSourceVO.Types.DR_STORAGE_HT5B=38
+   javax.websocket.server.ServerContainer=org.apache.tomcat.websocket.server.WsServerContainer@3282ab53
+   org.directwebremoting.impl.ServerContext=org.directwebremoting.impl.DefaultServerContext@17045c04
+   AdminServletAxisEngine=org.apache.axis.server.AxisServer@766a10d3
+   constants.DataSourceVO.Types.MODBUS_SERIAL=2
+   constants.DataSourceVO.Types.POP3=12
+   org.apache.tomcat.JarScanner=org.apache.tomcat.util.scan.StandardJarScanner@3ef89067
+   constants.DataSourceVO.Types.VICONICS=18
+   FREEMARKER_CONFIG=freemarker.template.Configuration@29262e2e
+   constants.DataSourceVO.Types.SQL=6
+   constants.DataSourceVO.Types.MODBUS_IP=3
+   constants.AuditEventType.TYPE_SCHEDULED_EVENT=5
+   constants.SystemEventType.TYPE_SYSTEM_SHUTDOWN=2
+   constants.DataSourceVO.Types.ASCII_SERIAL=34
+   constants.DataSourceVO.Types.HTTP_RECEIVER=7
+   constants.DataSourceVO.Types.DNP3_IP=21
+   BACKGROUND_PROCESSING=com.serotonin.mango.rt.maint.BackgroundProcessing@ed9c06a
+   constants.EventType.EventSources.COMPOUND=5
+   constants.DataSourceVO.Types.VIRTUAL=1
+   org.apache.jasper.runtime.JspApplicationContextImpl=org.apache.jasper.runtime.JspApplicationContextImpl@3b8859c9
+   javax.servlet.context.tempdir=C:\Program Files\ScadaBR\tomcat\work\Catalina\localhost\ScadaBR
+   constants.DataSourceVO.Types.META=9
+   constants.DataSourceVO.Types.INTERNAL=27
+   org.apache.tomcat.InstanceManager=org.apache.catalina.core.DefaultInstanceManager@41099d77
+   constants.DataSourceVO.Types.DNP3_SERIAL=22
+   org.directwebremoting.Container=org.directwebremoting.impl.DefaultContainer@c676b7b
+   org.apache.jasper.compiler.TldCache=org.apache.jasper.compiler.TldCache@59469c26
+   DATABASE_ACCESS=com.serotonin.mango.db.DerbyAccess@195cddf4
+   constants.DataSourceVO.Types.IEC101_ETHERNET=36
+   constants.SystemEventType.TYPE_PROCESS_FAILURE=10
+   constants.SystemEventType.TYPE_MAX_ALARM_LEVEL_CHANGED=3
+   constants.DataSourceVO.Types.M_BUS=20
+   constants.DataSourceVO.Types.IEC101_SERIAL=35
+ 
+WARN  2022-10-29 16:19:40,909 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught Error: Cannot read properties of null (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/dojo/dojo.js
+   Line: 96
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+INFO  2022-10-29 17:38:44,197 (com.serotonin.mango.MangoContextListener.contextDestroyed:145) - Mango context terminating 
+INFO  2022-10-29 17:38:44,490 (com.serotonin.mango.MangoContextListener.contextDestroyed:168) - Mango context terminated 
+INFO  2022-10-29 17:39:09,095 (com.serotonin.mango.MangoContextListener.contextInitialized:85) - Mango context starting 
+INFO  2022-10-29 17:39:09,188 (com.serotonin.mango.MangoContextListener.contextInitialized:95) - Max threads: 1000 
+INFO  2022-10-29 17:39:14,193 (com.serotonin.mango.MangoContextListener.contextInitialized:140) - Mango context started 
+INFO  2022-10-29 17:41:06,563 (com.serotonin.mango.MangoContextListener.contextDestroyed:145) - Mango context terminating 
+INFO  2022-10-29 17:41:06,649 (com.serotonin.mango.MangoContextListener.contextDestroyed:168) - Mango context terminated 
+INFO  2022-10-29 17:43:35,342 (com.serotonin.mango.MangoContextListener.contextInitialized:85) - Mango context starting 
+INFO  2022-10-29 17:43:35,366 (com.serotonin.mango.MangoContextListener.contextInitialized:95) - Max threads: 1000 
+INFO  2022-10-29 17:43:38,730 (com.serotonin.mango.MangoContextListener.contextInitialized:140) - Mango context started 
+WARN  2022-10-29 18:41:03,478 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught Error: Cannot read properties of null (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/dojo/dojo.js
+   Line: 96
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
+WARN  2022-10-29 19:13:04,693 (com.serotonin.mango.web.dwr.MiscDwr.jsError:194) - Javascript error
+   Description: Uncaught Error: Cannot read properties of null (reading 'style')
+   Page: http://localhost:8080/ScadaBR/resources/dojo/dojo.js
+   Line: 96
+   Browser name: Chrome
+   Browser version: 105
+   osName: Windows
+   location: http://localhost:8080/ScadaBR/view_edit.shtm?viewId=6 
